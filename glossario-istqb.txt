@@ -1,0 +1,564 @@
+abordagem de testar primeiro	Uma abordagem de desenvolvimento de software na qual os casos de teste são modelados e implementados antes do componente ou sistema associado ser desenvolvido.
+abordagem de teste	A implementação da estratégia de teste para um projeto específico.
+aceleração	Uma técnica para aumentar a carga em um sistema de maneira mensurável e controlada.
+acessibilidade	O grau em que um componente ou sistema pode ser usado por pessoas com a mais ampla gama de características e capacidades, para atingir um objetivo específico em um contexto de uso.
+acompanhamento	Um tipo de revisão onde um lider conduz a revisão por meio de produtos de trabalho onde os membros questionam e comentam sobre possíveis problemas.
+adaptabilidade	Grau que um componente ou sistema pode ser adaptado para hardware, software ou outro ambiente operacional, ou de uso diferente, ou em evolução.
+adequação funcional	O grau em que as funções facilitam o cumprimento de tarefas e objetivos específicos.
+alfa teste	Um tipo de teste de aceite realizado no ambiente de testes do desenvolvedor por pessoas fora da organização de desenvolvimento.
+ambiente de teste	Ambiente que contém hardware, instrumentação, simuladores, ferramentas de software e outros elementos de suporte necessários à realização de um teste.
+ambiente de teste virtual	Um ambiente de teste no qual uma ou mais partes são simuladas digitalmente.
+Ambiente de teste XiL	Um termo generalizado para testes dinâmicos em diferentes ambientes de teste virtuais.
+ambiente preparado para teste	Um ambiente de teste composto por simuladores e drivers necessários para executar um conjunto de testes.
+ameaça interna	Ameaça de segurança proveniente de dentro da organização, muitas vezes por um usuário do sistema autorizado.
+analisabilidade	O grau em que uma avaliação pode ser feita para um componente ou sistema do impacto de uma ou mais mudanças pretendidas, o diagnóstico de deficiências ou causas de falhas, ou a identificação de partes a serem modificadas.
+análise de causa-raiz	Uma técnica de análise destinada a identificar as causas de origem dos defeitos. Ao dirigir as medidas correctivas às causas raiz, espera-se que a probabilidade de recorrência dos defeitos seja minimizada.
+análise de impacto	A identificação de todos os produtos de trabalho afetados por uma mudança, incluindo uma estimativa dos recursos necessários para realizar a mudança.
+análise de Ponto de Teste	Método de estimação de teste que usa fórmula baseada na Análise de Ponto de Função.
+análise de risco	O processo global de identificação e avaliação de riscos.
+análise de teste	A atividade que identifica as condições de teste, analisando a base do teste.
+análise de valor limite	Uma técnica de teste caixa-preta na qual os casos de teste são projetados com base em valores limites
+análise dinâmica	O processo de avaliação de um componente ou sistema com base no seu comportamento durante a sua execução.
+análise do fluxo de controle	Um tipo de análise estática baseada na representação de caminhos únicos para a execução de um componente ou sistema.
+análise do fluxo de dados	Um tipo de análise estática baseada no ciclo de vida das variáveis.
+análise estática	O processo de avaliar um componente ou sistema sem executá-lo, com base em sua forma, estrutura, conteúdo ou documentação.
+anomalia	Qualquer condição que se desvia da expectativa com base em especificações de requisitos, documentos de design, documentos do usuário, padrões, etc., ou da percepção ou experiência de alguém. Anomalias podem ser encontradas durante, mas não limitadas a, revisão, teste, análise, compilação ou uso de produtos de software ou documentação aplicável.
+anti-malware	Software usado para detectar e inibir malware.
+anti-padrão	Ações repetitivas, solução reutilizável de estrutura ou processo que inicialmente parece ser benéfico e é normalmente utilizada, mas é ineficaz e/ou improdutiva na prática.
+aperfeiçoador do processo de teste	Pessoa que implementa melhorias no processo de teste baseado em um plano de melhoria de teste.
+Application Programming Interface	Um tipo de interface na qual os componentes ou sistemas envolvidos trocam informações em uma estrutura formal definida.
+aprendizável	O grau em que um componente ou sistema pode ser usado por usuários especificos para alcançar objetivos específicos de aprendizagem com satisfação e liberdade de risco em um contexto específico de uso.
+arquiteto de teste	(1) Pessoa que fornece orientação e direção estratégica para uma organização de teste e para o seu relacionamento com outras disciplinas. (2) Pessoa que define a maneira como o teste é estruturado para um determinado sistema, incluindo tópicos como ferramentas de teste e gerenciamento de dados de teste.
+arquitetura de automação de teste	Uma instanciação da arquitetura de automação de teste genérico para definir a arquitetura de uma solução de automação de teste, ou seja, as suas camadas, componentes, serviços e interfaces.
+arquitetura de automação de teste genérico	Representação das camadas, componentes e interfaces de uma arquitetura de automação de teste, permitindo uma abordagem estruturada e modular para implementar a automação de testes.
+árvore de classificação	Um diagrama em árvore que representa os domínios de dados de teste de um objeto de teste.
+atacante	Uma pessoa ou processo que tenta acessar dados, funções ou outras áreas restritas de um sistema sem autorização, com intenção potencialmente maliciosa.
+ataque de segurança	Tentativa de obter acesso não autorizado a um sistema, componente, recursos, informações ou uma tentativa de comprometer a integridade de um sistema.
+atendimento de qualidade	Uma abordagem de gestão da qualidade que se concentra em uma cultura de qualidade em toda uma organização.
+atratividade	O grau em que uma interface de usuário permite uma interação agradável e satisfatória para o usuário.
+auditoria	Um exame independente de um produto de trabalho, processo ou conjunto de processos realizado por um terceiro para avaliar a conformidade com suas especificações, padrões, acordos contratuais ou outros critérios.
+auditoria de segurança	Auditoria que avalia os processos e a infra-estrutura de segurança de uma organização.
+autenticação	Um procedimento que determina se uma pessoa ou um processo é, de fato, quem ou o que é declarado ser.
+autenticidade	O grau em que a identidade de um sujeito ou recurso pode ser provada como a reivindicada.
+automação da execução de teste	O uso de software, por exemplo, ferramentas de captura/reprodução, para controlar a execução dos testes, comparar os resultados reais com os esperados, configurar as pré-condições de teste e outras funções de controle de teste e relatório
+automação de teste	Uso de um software para executar ou apoiar as atividades de teste.
+automotive safety integrity level	Um dos quatro níveis que especificam os requisitos necessários do item ou elemento da ISO 26262 e medidas de segurança para evitar um risco residual não razoável.
+automotive SPICE	Um modelo de referência e de avaliação de processo associado à indústria automotiva que está em conformidade com os requisitos da ISO/IEC 33002: 2015.
+autorização	Permissão dada a um usuário ou processo para acessar recursos
+avaliação acumulativa	Um tipo de avaliação planejada e usada para reunir conclusões sobre a qualidade de um componente ou sistema, especialmente quando uma parte substancial dele tiver sido concluído o projeto.
+avaliação de processo	Avaliação disciplinada dos processos de software de uma organização contra um modelo de referência.
+avaliação de risco	O processo para examinar e determinar o nível dos riscos identificados.
+avaliação de usabilidade	Um processo pelo qual informações sobre a usabilidade de um sistema são coletadas para melhorar o sistema (conhecido como avaliação formativa) ou para avaliar o mérito ou o valor de um sistema (conhecido como avaliação somativa).
+avaliação formal	Um tipo de avaliação projetado e usado para melhorar a qualidade de um componente ou sistema, especialmente quando ainda está sendo desenhado.
+avaliação heurística	Uma avaliação de um produto de trabalho que usa uma heurística.
+base de teste	O corpo de conhecimento usado como base para análise e modelagem de teste.
+beta teste	Um tipo de teste de aceite realizado em um local externo ao ambiente de testes do desenvolvedor, por pessoas fora da organização de desenvolvimento.
+botnet	Uma rede de computadores comprometidos, chamados bots ou robôs, que é controlada por terceiros e usada para transmitir malware ou spam, ou para lançar ataques.
+caça aos bugs	Uma abordagem de teste onde prêmios por defeitos encontrados são usados como motivadores.
+camada de adaptação de teste	Camada em uma arquitetura genérica de automação de teste que fornece o código necessário para a adaptação dos testes automatizados para diferentes componentes, configurações ou interfaces do SUT.
+camada de definição de teste	Camada em uma arquitetura genérica de automação de teste que suporta a implementação do teste, apoiando a definição dos conjuntos de testes e/ou casos de teste, por exemplo, através da oferta de modelos e orientações.
+camada de execução de teste	Camada em uma arquitetura genérica de automação de teste que suporta a execução de conjuntos de testes e/ou casos de teste.
+camada de geração de teste	Camada em uma arquitetura genérica de automação de teste que apoia o projeto manual ou automatizado do conjunto de testes e / ou casos de teste.
+caminho	Sequência de eventos (por exemplo, instruções executáveis) de um componente ou sistema a partir de um ponto de entrada para um ponto de saída.
+Capability Maturity Model Integration	Um modelo estruturado que descreve os elementos-chave de um desenvolvimento eficaz de produto e seu processo de manutenção. O Capability Maturity Model Integration cobre as melhores práticas de planejamento, engenharia e gestão de produtos de desenvolvimento e manutenção.
+capacidade	O grau em que os limites máximos de um componente ou parâmetro do sistema atendem aos requisitos.
+captura/reprodução	Uma abordagem de automação de teste na qual as entradas para o objeto de teste são registradas durante o teste manual para gerar scripts de teste automatizados que serão executados posteriormente.
+característica de qualidade	Uma categoria de atributos de qualidade relacionadas com a qualidade do produto do trabalho.
+carta de teste	Documentação da meta ou do objetivo para uma sessão de teste
+caso de teste	Um conjunto de pré-condições, entradas, ações (quando aplicável), resultados esperados e pós-condições, desenvolvidos com base nas condições de teste.
+caso de teste de acompanhamento	Um caso de teste gerado pela aplicação de uma relação metamórfica à fonte de um caso de teste durante um teste metamórfico.
+caso de teste de alto nível	Um caso teste com pré-condições abstratas, dados de entrada, resultados esperados, pós-condições e ações (quando aplicável).
+caso de teste de baixo nível	Um caso de teste com valores concretos de pré-condições, dados de entrada, resultados esperados e pós-condições, e descrição detalhada das ações (quando aplicáveis).
+caso de teste fonte	Um caso de teste que passou e é usado como base de casos de teste de acompanhamento em testes metamórficos
+caso de uso de abuso	Um caso de uso no qual alguns atores com intenção maliciosa estão causando danos ao sistema ou a outros atores.
+causa-raiz	Uma fonte de um defeito tal que, se ele for removido, a ocorrência do tipo do defeito é reduzida ou removida.
+certificação	Processo de confirmação de que um componente, sistema ou pessoa está em conformidade com requisitos predeterminados.
+ciclo de teste	Execução do processo de teste contra um único release identificável do objeto de teste.
+ciclo de vida de desenvolvimento de software	Atividades executadas em cada estágio no desenvolvimento de software e como elas se relacionam umas com as outras, logicamente e cronologicamente.
+ciclo de vida do software	Período de tempo que começa quando um produto de software é concebido e termina quando o software não está mais disponível para uso. O ciclo de vida do software, normalmente inclui as fases de: conceito, requisitos, concepção, execução, teste, instalação e verificação, operação e manutenção e, às vezes, a fase de aposentadoria. Note que estas fases podem se sobrepor ou serem realizadas de forma iterativa.
+cobertura	O grau em que os itens de cobertura especificados foram determinados ou foram exercidos por um conjunto de testes, sendo expresso como uma porcentagem
+cobertura da mudança de valor	A cobertura de neurônios ativos onde seus valores de ativação diferem em mais do que uma quantidade de mudança na rede neural para um conjunto de testes
+cobertura de condição	A cobertura dos resultados das condições que foram exercitadas por um conjunto de testes.
+cobertura de condição múltipla	A cobertura de combinações de todos os resultados únicos de condição dentro de uma sentença que foram exercidas por um conjunto de testes.
+cobertura de condição/decisão modificada	A cobertura de todos os resultados de uma condição única que afetam independentemente um resultado de decisão que tenha sido exercida por um conjunto de teste.
+cobertura de decisão	A cobertura dos resultados da decisão.
+cobertura de instruções	A cobertura de instruções executáveis.
+cobertura de modelo	A cobertura dos elementos de um modelo.
+cobertura de mudança de sinal	A cobertura de neurônios ativos com valores de ativação positivos e negativos em uma rede neural para um conjunto de testes.
+cobertura de sinal	A cobertura alcançada se, ao mudar o sinal de cada neurônio, for possível demonstrar que individualmente um neurônio da camada seguinte mudará o sinal enquanto todos os demais não mudarão de sinal para um conjunto de testes.
+cobertura do limite	A cobertura de neurônios que excedem um valor limite de ativação em uma rede neural para um conjunto de testes.
+cobertura estrutural	Medidas de cobertura baseadas na estrutura interna de um componente ou sistema.
+cobertura N-switch	A cobertura de sequências válidas de transições N + 1 que foram executadas por um conjunto de testes.
+cobertura neural	A cobertura de neurônios ativos na rede neural para um conjunto de testes.
+coexistência	O grau em que um componente ou sistema pode executar suas funções necessárias ao compartilhar um ambiente e recursos com outros componentes ou sistemas sem que haja impacto negativo em qualquer um deles.
+coleta de contas	O processo de obtenção de informações de conta de usuário com base na tentativa e erro com a intenção de usar essas informações em um ataque de segurança.
+comitê de gestão de defeitos	Uma equipe multifuncional de interessados que gerenciam os defeitos relatados para uma resolução final (remoção de defeitos, diferimento do defeito ou cancelamento do relatório). Em alguns casos a mesma equipe atual como controle de configuração.
+compatibilidade	O grau em que um componente ou sistema pode trocar informações com outros componentes ou sistemas, ou executar suas funções requeridas ao compartilhar o mesmo ambiente de hardware ou software.
+compatibilidade entre navegadores	O grau em que um site ou aplicativo da Web pode funcionar em diferentes navegadores e degradar de forma elegante quando os recursos do navegador estão ausentes ou deficiente.
+complexidade	Grau de dificuldade de entendimento, manutenção e verificação que uma modelagem e/ou estrutura interna apresenta.
+complexidade ciclomática	O número máximo de caminhos lineares e independentes através de um programa.
+componente	A parte mínima de um sistema que pode ser testado isoladamente.
+comportamento temporal	Grau em que um componente ou sistema pode executar suas funções necessárias dentro dos tempos de resposta, de processamento e das taxas de transferência necessários.
+computação forense	A prática de determinar como um ataque de segurança teve êxito e avaliar os danos causados.
+conclusão do teste	A atividade que torna o testware disponível para uso posterior, deixando o ambiente de teste em condições satisfatórias e comunicando os resultados obtidos aos stakeholders.
+concorrência	A execução simultânea de vários encadeamentos independentes por um componente ou sistema.
+condição atômica	Uma condição que não contém operadores lógicos.
+condição de teste	Um aspecto testável de um componente ou sistema identificado como base para teste.
+conectividade	O grau em que um componente ou sistema pode se conectar a outros componentes ou sistemas.
+confiabilidade	O grau em que um componente ou sistema executa funções específicas sob condições específicas por um período de tempo específico
+confidencialidade	Grau em que um componente ou sistema garante que os dados sejam acessíveis apenas àqueles autorizados a ter acesso.
+conformidade	Adesão do componente ou sistema a padrões, convenções ou regulamentos, em leis e prescrições similares.
+conformidade funcional	O grau em que um componente ou sistema fornece funções que atendem às necessidades declaradas e implícitas quando usadas sob condições especificadas.
+contabilização	O grau em que as ações de uma entidade podem ser rastreadas exclusivamente para essa entidade.
+contenção de fase	Porcentagem de defeitos que são removidos na mesma fase do ciclo de vida de software em que foram introduzidos.
+contexto de uso	Usuários, tarefas, equipamentos (hardware, software e materiais) e os ambientes físicos e sociais nos quais um produto de software é usado.
+controle de teste	A atividade que desenvolve e aplica ações corretivas para colocar um projeto de teste no caminho certo quando ele se desvia do que foi planejado.
+correção funcional	O grau em que um componente ou sistema fornece os resultados corretos com o grau de precisão necessário.
+critério de aceite	Os critérios que um componente ou sistema deve satisfazer para ser aceito por um usuário, cliente ou outra entidade autorizada.
+critério de cobertura	Os critérios para definir os itens de cobertura necessários para atingir um objetivo de teste
+critério de seleção de teste	Critérios utilizados para orientar a geração de casos de teste ou para selecionar casos de teste, a fim de limitar o tamanho de um teste.
+critérios de aprovação/reprovação	Regras de decisão usadas para determinar se um item de teste passou ou falhou.
+critérios de desempenho funcional ML	Critérios baseados em métricas de performance funcional ML usados como base para avaliação, ajustes e teste de modelos.
+critérios de entrada	O conjunto de condições para oficialmente iniciar uma tarefa definida.
+critérios de saída	O conjunto de condições para concluir oficialmente uma tarefa definida.
+cronograma de execução de teste	Um cronograma para a execução de conjuntos de testes dentro de um ciclo de teste.
+cronograma de teste	Lista de atividades, tarefas e eventos do processo de teste, identificando o seu início previsto e datas de término e/ou tempos, e interdependências entre as tarefas
+cross-site scripting	Uma vulnerabilidade que permite aos atacantes injetar código malicioso em um site.
+cultura em qualidade	Um sistema de valores organizacionais que resulta em um ambiente para estabelecer e melhorar a qualidade continuamente.
+curto-circuíto	Técnica de programação para avaliar as condições compostos em que uma condição de um dos lados de um operador lógico não pode ser avaliada, se a condição do outro lado é suficiente para determinar o resultado final.
+custo da qualidade	Custos totais incorridos em atividades de qualidade e em questões frequentemente divididas em custos de prevenção, custos de avaliação, os custos de falhas internas e custos de falhas externas.
+dados de teste	Dados necessários para a execução de um teste
+decisão	Um tipo de instrução na qual uma escolha entre dois ou mais resultados possíveis controla qual conjunto de ações resultará.
+defeito	Uma imperfeição ou deficiência em um produto de trabalho que faz com que ele não atenda seus requisitos ou especificações.
+defeito escapado	Um defeito que não foi detectado em um nível de teste anterior que deveria encontrar esse tipo de defeito.
+denial of service	Um ataque de segurança destinado a sobrecarregar o sistema com solicitações de tal forma que solicitações legítimas não possam ser atendidas.
+densidade de defeitos de código de automação	Densidade de defeitos de um componente do código de automação de teste.
+densidade do defeito	O número de defeitos por tamanho de unidade de um produto de trabalho.
+depuração	O processo de encontrar, analisar e remover as causas de falhas em um componente ou sistema.
+desaceleração	Uma técnica para diminuir a carga em um sistema de maneira mensurável e controlada.
+descobrindo	Resultado de uma avaliação que identifica algum problema ou oportunidade importante.
+desenvolvimento ágil de software	Um grupo de metodologias de desenvolvimento de sistemas baseado no desenvolvimento interativo e incremental onde os requisitos e soluções evoluem através da colaboração entre equipes multifuncionais de auto-organização.
+desenvolvimento de função de qualidade	Uma técnica simplificada de workshop que ajuda a determinar as características críticas para o desenvolvimento de novos produtos.
+desenvolvimento orientado pela característica	É um processo de desenvolvimento de software iterativo e incremental conduzido a partir da perspectiva do cliente com relação a uma funcionalidade (característica). Este processo é usado principalmente em desenvolvimento ágil de software.
+desenvolvimento orientado pelo comportamento	Uma abordagem colaborativa ao desenvolvimento, na qual a equipe está focada em fornecer o comportamento esperado de um componente ou sistema para o cliente, compondo a base para o teste.
+desenvolvimento orientado por teste	Uma técnica de desenvolvimento de software na qual os casos de teste são desenvolvidos e geralmente automatizados; depois, o software é desenvolvido de forma incremental para passar nesses casos de teste.
+desenvolvimento orientado por teste de aceite	Uma abordagem colaborativa para desenvolvimento, na qual a equipe e os clientes estão usando a linguagem de domínio do próprio cliente para entender seus requisitos, que forma a base para testar um componente ou sistema.
+diagrama causa-efeito	Representação gráfica usada para organizar e visualizar as relações entre várias causas possíveis de um problema. As possíveis causas de um defeito real ou potencial ou falha são organizados em categorias e subcategorias em forma de uma estrutura em árvore horizontal, com o defeito (potencial) ou o falha como o nó raiz.
+diagrama causal de loop	Uma representação gráfica usada para visualizar as relações de causa-efeito e os loops de retorno em um sistema.
+diretor de teste	Um gerente sênior que gerencia os gerentes de teste.
+diretriz de interface de usuário	Uma regra ou recomendação específica de baixo nível para o design da interface do usuário que deixa pouco espaço para a interpretação, para que os projetistas a implementem de maneira semelhante. É frequentemente usado para garantir consistência na aparência e no comportamento da interface do usuário dos sistemas produzidos por uma organização
+disponibilidade	O grau em que um componente ou sistema está operacional e acessível quando necessário para uso.
+driver	Um componente ou ferramenta temporário que substitui outro componente e controla ou chama um item de teste isoladamente.
+efeito de monitoração	Uma mudança não intencional no comportamento de um componente ou sistema causada pela medição do mesmo.
+efetividade	Capacidade de produzir um resultado desejado.
+eficiência	Grau em que os recursos são gastos em relação à precisão e integridade com as quais os objetivos do usuário são alcançados.
+eficiência de performance	Grau em que um sistema ou componente realiza suas funções designadas dentro das restrições dadas, quanto tempo de processamento e taxa de transmissão.
+emulador	Software utilizado durante os testes que imita o comportamento do hardware
+encriptação	Processo de codificação de informações de modo que somente as partes autorizadas possam recuperar as informações originais, geralmente por meio de um processo ou uma chave de desencriptação específica.
+engenharia social	Tentativa de enganar alguém para que revele informações (p.e., uma senha) que podem ser usadas para atacar sistemas ou redes
+engenheiro de automação de teste	Responsável pela concepção, implementação e manutenção de uma arquitetura de automação de teste, bem como a evolução técnica da solução de automação de teste resultante.
+épico	Uma história de usuário grande que não pode ser entregue conforme definida em uma única iteração, ou é grande o suficiente para ser dividida em histórias de usuário menores.
+erro	Ação humana que produz um resultado incorreto.
+Escala de Usabilidade do Sistema	Uma escala com dez itens, que oferece uma visão global das avaliações subjetivas de usabilidade.
+escalabilidade	Capacidade que um produto de software tem para sofrer um upgrade ou para acomodar aumento de cargas.
+esforço de teste manual equivalente	Esforço necessário para a execução de testes manualmente.
+especificação de teste	A documentação completa do projeto de teste, casos de teste e procedimentos de teste para um item de teste específico.
+especificação por exemplo	Uma técnica de desenvolvimento na qual a especificação é definida por exemplos.
+estimativa de teste	Uma aproximação relacionada com vários aspectos dos testes.
+estratégia de automação de teste	Um plano de alto nível para alcançar os objetivos de longo prazo da automação de teste sob dadas condições de contorno.
+estratégia de teste	Documentação alinhada à política de teste que descreve os requisitos genéricos dos testes e detalha como serão executados dentro de uma organização.
+estratégia de teste compatível com o processo	Estratégia de teste pela qual a equipe de teste segue um conjunto de processos predefinidos nos quais os processos abordam itens como documentação, identificação e uso apropriado da base de teste, oráculo de teste e organização da equipe.
+estratégia de teste analítica	Uma estratégia de teste em que a equipe de teste analisa a base de teste para identificar as condições de cobertura do teste.
+estratégia de teste baseada em modelos	Estratégia de teste pela qual a equipe de teste obtém o teste através de modelos.
+estratégia de teste compatível com um padrão	Estratégia de teste pela qual a equipe de teste segue um padrão. As normas seguidas podem ser válidas, por exemplo, para um país (normas de legislação), um domínio empresarial (padrões de domínio) ou internamente (padrões organizacionais).
+estratégia de teste consultiva	Estratégia de teste na qual a equipe de teste se baseia na entrada de um ou mais Stakeholders para determinar os detalhes da estratégia.
+estratégia de teste de contrarregressão	Estratégia de teste através da qual a equipe de teste aplica várias técnicas para gerenciar o risco de regressão, tais como automação de teste de regressão funcional e/ou não funcional num ou mais níveis.
+estratégia de teste metódico	Estratégia de teste pela qual a equipe de teste usa um conjunto predeterminado de condições de teste, como um padrão de qualidade, uma lista de verificação ou uma coleção de condições de teste lógicas generalizadas que podem estar relacionadas a um domínio, aplicativo ou tipo de teste específico.
+estratégia de teste reativo	Estratégia de teste pela qual a equipe de teste espera para projetar e implementar testes até que o software seja recebido, reagindo ao sistema atual sob teste.
+etapa de teste	Uma única interação entre um ator e o objeto de teste que consiste em uma entrada, uma ação e um resultado esperado.
+European Foundation for Quality Management excellence model	Uma estrutura não prescritiva para o sistema de gestão de qualidade de uma organização com base em cinco critérios de &quot;Capacitação&quot; e quatro critérios de &quot;Resultados&quot;.
+execução de teste	Atividade que executa um teste em um componente ou sistema produzindo resultados reais.
+exemplo contraditório	Uma entrada para um modelo ML criada pela aplicação de pequenas perturbações a um exemplo de trabalho que resulta em um resultado incorreto do modelo com alta confiança.
+experiência do usuário	Percepções e respostas de uma pessoa resultantes do uso ou uso antecipado de um produto de software
+explosão de caso de teste	Crescimento desproporcional do número de casos de teste com tamanho crescente da base de teste, quando se utiliza uma determinada técnica de teste. A explosão de um caso de teste também pode ocorrer quando se aplica a técnica de modelagem sistematicamente pela primeira vez.
+failover	O modo operacional de backup no qual as funções de um sistema que se torna indisponível são assumidas por um sistema secundário.
+Failure Mode and Effect Analysis	Abordagem sistemática da identificação de risco e da análise da identificação de possíveis modos de falha e das tentativas de prevenção de sua ocorrência.
+falha	Um evento no qual um componente ou sistema não executa uma função necessária dentro dos limites especificados.
+falhar	Um teste é considerado falho se o seu resultado real não corresponde ao resultado esperado.
+Fault Tree Analysis	Uma técnica usada para analisar as causas de falhas (defeitos). A técnica modela visualmente como as relações lógicas entre falhas, erros humanos e eventos externos podem se combinar para causar falhas específicas a serem reveladas.
+fechamento de teste	Durante a fase de fechamento de um processo de teste, coletam-se dados das atividades já completadas a fim de consolidar a experiência, o testware, os fatos e os números. A fase de fechamento consiste em finalizar e arquivar o testware e em avaliar o processo de teste, inclusive com a preparação de um relatório de avaliação de teste.
+ferramenta de código aberto	Uma ferramenta de software que está disponível para todos os usuários em sua forma de código fonte, geralmente através da Internet, onde é permitido a seus usuários sob licença, estudar, mudar, melhorar e, às vezes, redistribuir o software.
+ferramenta de execução de teste	Um tipo de ferramenta de teste que é capaz de executar outro software usando um script de teste automatizado, por exemplo, captura/reprodução
+ferramenta de gerenciamento de teste	Uma ferramenta que provê suporte ao gerenciamento de testes.
+ferramenta de monitoramento	Uma ferramenta de software ou dispositivo de hardware que é executado simultaneamente com o componente ou sistema sob teste, supervisionando, registrando e/ou analisando seu comportamento.
+ferramenta de teste de performance	Uma ferramenta de teste que gera carga para um item determinado de teste medindo e registrando sua performance durante a execução do teste.
+ferramenta personalizada	Uma ferramenta de software desenvolvida especificamente para um conjunto de usuários ou clientes.
+firewall	Componente ou conjunto de componentes que controla o tráfego de entrada e saída da rede com base em regras de segurança predeterminadas.
+fluxo de controle	A sequência em que as operações são executadas por um processo de negócio, componente ou sistema.
+fortalecimento do sistema	Processo passo-a-passo de reduzir as vulnerabilidades de segurança de um sistema, aplicando uma política de segurança e diferentes camadas de proteção.
+framework de automação de teste	Uma ferramenta que oferece um ambiente para automação de testes. Ele geralmente inclui um equipamento de teste e bibliotecas de teste.
+framework de teste de unidade	Ferramenta que proporciona um ambiente de teste de unidade ou de componente, em que um componente pode ser testado de forma isolada ou com comtroladores e simuladores adequados. Ele também fornece outros tipos de suporte para o desenvolvedor, tais como capacidade de depuração.
+garantia da informação	Medidas que protegem e defendem os sistemas de informação assegurando a sua disponibilidade, integridade, autenticação, confidencialidade. Estas medidas incluem o restabelecimento de sistemas de informação através da incorporação de capacidades de proteção, deteção e reação.
+garantia de qualidade	Atividades focadas em proporcionar confiança de que os requisitos de qualidade serão cumpridos.
+geração de carga	O processo de simulação de um conjunto definido de atividades em uma carga específica que será submetida a um componente ou sistema.
+gerador de carga	Uma ferramenta que gera uma carga para um sistema em teste.
+gerenciamento de carga	O controle e a execução da geração e monitoramento de carga, e do relatório de performance do componente ou sistema.
+gerenciamento de configuração	Uma disciplina que aplica orientação, supervisão técnica e administrativa para identificar e documentar as características funcionais e físicas de um item de configuração; controlar alterações nessas características; registrar e relatar o status de processamento e implementação de alterações; e verificar se está em conformidade com os requisitos especificados.
+gerenciamento de defeitos	O processo de reconhecimento, registo, classificação, investigação, resolução e eliminação de defeitos.
+gerenciamento de qualidade	Atividades coordenadas para dirigir e controlar a qualidade em uma organização, incluindo o estabelecimento de uma política e objetivos de qualidade, planejamento, controle, garantia e melhoria de qualidade.
+gerenciamento de risco	O processo para lidar com os riscos.
+gerenciamento de teste	O planejamento, programação, previsão, monitoramento, relatórios, controle e conclusão das atividades de teste.
+gerenciamento de teste baseado em sessão	Método para medir e gerenciar testes baseados em sessões.
+gerente de automação de teste	Responsável pelo planejamento e supervisão do desenvolvimento e evolução de uma solução de automação de testes.
+gerente de teste	Pessoa responsável pelo gerenciamento das atividades de teste de um projeto, dos recursos, e da avaliação de um objeto de teste.
+gráfico de causa-efeito	Representação gráfica de entradas e/ou estímulos (causas) com suas saídas associadas (efeitos), os quais podem ser usados para projetar casos de testes.
+gráfico de controle	Uma ferramenta estatística de controle do processo usada para monitoramento determinando se ele está sob controle. Ele representa graficamente o valor médio e os limites de controle superior e inferior (os valores mais altos e mais baixos) de um processo.
+grupo de processo de teste	Uma equipe de especialistas que facilitam a definição, manutenção e melhoria dos processos de teste utilizados por uma organização.
+hacker	Pessoa ou organização que está ativamente envolvida em ataques de segurança, geralmente com intenção maliciosa.
+hacker ético	Testador de segurança usando técnicas hacker.
+hardware in the loop	Teste dinâmico realizado usando hardware real com software integrado em um ambiente simulado.
+hashing	Transformação de uma cadeia de caracteres de tamanho variável em um valor ou chave de comprimento fixo geralmente mais curto. Valores hash, ou hashes, são comumente usados em pesquisas de tabela ou banco de dados. Funções hash criptográficas são usadas para proteger dados.
+heurística	Uma regra prática geralmente reconhecida que ajuda a atingir um objetivo.
+história de usuário	Um requisito de usuário ou de negócios que consiste em uma frase expressa no idioma do dia-a-dia ou de negócios que captura a funcionalidade de que um usuário precisa, a razão por trás disso, qualquer critério não funcional e também critérios de aceite.
+hyperlink	Ponteiro dentro de uma página web que leva a outras páginas da web.
+identificação de risco	O processo de encontrar, reconhecer e descrever riscos.
+impacto de risco	O dano que será causado caso o risco se tornar um resultado real ou evento.
+implementação de teste	A atividade que prepara o testware necessário para a execução dos testes baseando-se na análise e na modelagem do teste.
+independência do teste	Separação das responsabilidades, o que incentiva a realização de testes objetivos.
+infraestrutura de teste	Artefatos organizacionais necessário para realizar os testes. Eles consistem em ambientes de teste, ferramentas de teste, ambiente de trabalho e procedimentos.
+injeção de código	Um tipo de ataque de segurança realizado pela inserção de código mal-intencionado em uma interface de um aplicativo para explorar a manipulação inadequada de dados não confiáveis.
+injeção de falha	Processo de adição de defeitos intencionalmente a um sistema com o objetivo de descobrir se o mesmo pode detectar e, possivelmente, recuperar-se a partir de um defeito. A injeção de falhas é destinada a imitar as falhas que podem ocorrer no campo.
+inspeção	Um tipo de revisão formal para identificar problemas em um produto de trabalho, que fornece medições para melhorar o processo de revisão e o processo de desenvolvimento de software.
+instalabilidade	O grau em que um componente ou sistema pode ser instalado ou desinstalado com sucesso em um ambiente especificado.
+instrução	Entidade em uma linguagem de programação, que normalmente é a menor unidade indivisível de execução.
+integração contínua	Um procedimento de desenvolvimento de software que mescla, integra e testa todas as alterações assim que são confirmadas em um processo automatizado.
+integridade	Grau em que um componente ou sistema permite apenas acesso e modificação autorizados a um componente, sistema ou dados.
+integridade funcional	Grau em que o conjunto de funções abrange todas as tarefas e objetivos especificados pelo usuário.
+interface de linha de comando	Um tipo de interface na qual a informação é passada sob a forma de linhas de comando.
+interface do usuário	Todos os componentes de um sistema que fornecem informações e controles para o usuário realizar tarefas específicas com o sistema.
+interface gráfica do usuário	Um tipo de interface que permite aos usuários interagirem com um componente ou sistema através de ícones gráficos e indicadores visuais.
+internacionalização	O processo de fazer um sistema adequado para grupos de usuários internacionais.
+interoperabilidade	O grau em que dois ou mais componentes ou sistemas podem trocar informações e usar as informações que foram trocadas.
+intervalo de confiança	É o período de tempo, na gestão de riscos de projeto, em que uma ação de emergência tem de ser implementada de modo a ser eficaz na redução do impacto do risco.
+item de cobertura	Um atributo ou combinação de atributos que é derivado de uma ou mais condições de teste usando uma técnica de teste que permite a medição meticulosa da execução do teste.
+item de configuração	Agregação de produtos de trabalho designada para gerenciamento de configuração e tratada como uma única entidade no processo de gerenciamento de configuração.
+item de teste	Uma parte de um objeto de teste usado no processo de teste.
+laboratório de usabilidade	Uma instalação de teste na qual ocorre uma observação não intrusiva das reações e respostas dos participantes ao software.
+laboratório independente para testes	Uma organização responsável por testar e certificar que o software, hardware, firmware, plataforma e sistema operacional seguem todas as regras jurisdicionais para cada local onde o produto será usado.
+laboratório remoto para testes	Uma instalação que fornece acesso remoto a um ambiente de teste.
+Líder de equipe de teste ágil	Um papel responsável pela manutenção da qualidade da solução dentro de uma equipe de teste ágil.
+lider de teste	Em grandes projetos, a pessoa responsável pelo gerenciamento de projeto de um determinado nível de teste ou de um conjunto específico de atividades de teste, reportando-se ao gerente de teste.
+Líder de testes ágeis	Um papel de liderança que serve às equipes ágeis, defendendo os testes e a qualidade no nível organizacional.
+localização	O processo de fazer um sistema adequado para um grupo específico de usuários.
+malware	Software que se destina a prejudicar um sistema ou seus componentes.
+Manifesto Ágil	Uma declaração sobre os valores que sustentam o desenvolvimento de software Ágil. Os valores são: indivíduos e interações sobre processos e ferramentas, documentação abrangente do trabalho sobre o software, colaboração do cliente sobre negociação contratual, respondendo sobre as mudanças no plano.
+manifesto de melhoria do processo de teste	Uma declaração que reflete o manifesto Ágil, e define valores para melhorar o processo de teste.
+manutenção	O processo de modificar um componente ou sistema após a entrega para corrigir defeitos, melhorar seus atributos de qualidade ou adaptá-lo a um ambiente alterado
+manutenibilidade	O grau em que um componente ou sistema pode ser modificado por seus mantenedores
+mascaramento de dados	Transformação de dados que torna difícil para um ser humano reconhecer os dados originais.
+matriz de rastreabilidade	A tabela bidimensional, que se correlaciona duas entidades (por exemplo, requisitos e casos de teste). A tabela permite rastrear as ligações de uma entidade para outra, permitindo assim a determinação da cobertura alcançada e a avaliação do impacto das mudanças propostas.
+matriz RACI	Uma matriz que descreve a participação de vários papéis em completar tarefas ou entregas para um projeto ou processo. É especialmente útil para clarificar os papéis e responsabilidades. RACI é um acrônimo derivado das quatro principais responsabilidades mais tipicamente utilizados: responsável (Responsible), proprietário (Accountable), consultado (Consulted) e informado (Informed).
+maturidade	(1) A capacidade de uma organização em relação à eficácia e eficiência de seus processos e práticas de trabalho. (2) O grau em que um componente ou sistema atende às necessidades de confiabilidade em operação normal.
+MBT offline	Abordagem de teste baseada em modelo, através da qual os casos de teste são gerados em um repositório para execução futura.
+MBT online	Abordagem de teste baseada em modelo, através da qual os casos de teste são gerados e executados simultaneamente.
+medição	O processo de especificar um número ou uma categoria a uma entidade para descrever um atributo seu.
+melhoria de processo de teste	Programa de atividades destinadas a melhorar o desempenho e a maturidade dos processos de teste da organização e os resultados de um programa desse tipo.
+melhoria no processo de software	Programa de atividades concebido para melhorar o desempenho e a maturidade dos processos da organização e os resultados desse programa.
+metodologia de meta S.M.A.R.T.	A metodologia pela qual os objetivos são definidos de maneira muito específica e não genérica. SMART é uma sigla derivada dos atributos do objetivo a ser definido: específico (Specific), mensurável (Measurable), atingível (Attainable), relevante (Relevant) e oportuna (Timely).
+métrica	Escala de medição e o método utilizado para a medição.
+métrica de convergência	Uma métrica que mostra o progresso para um critério definido, por exemplo, a convergência do número total de testes executados pelo número total de testes planejados.
+métricas de performance funcional ML	Um conjunto de medidas que se relacionam com a precisão funcional de um sistema ML.
+missão do teste	O objetivo do teste para uma organização, muitas vezes documentada como parte da política de teste.
+mitigação de risco	O processo pelo qual as decisões são tomadas e medidas de proteção são implementadas para reduzir ou manter os riscos em níveis específicos.
+model in tne loop	Teste dinâmico realizado usando um modelo de simulação do sistema em um ambiente simulado.
+modelagem centrada em humano	Uma abordagem para a modelagem que visa tornar os produtos de software mais utilizáveis, concentrando-se no uso e aplicando fatores humanos, ergonômicos e conhecimentos e técnicas de usabilidade.
+modelagem de gráfico de causa-efeito	Técnica de modelagem de teste caixa preta na qual os casos de testes são modelados a partir de gráficos de causa-efeito.
+modelagem de teste	Atividade que deriva e especifica os casos e condições de teste
+modelo de ambiente	Uma abstração do ambiente real de um componente ou sistema, incluindo outros componentes, processos e condições do ambiente, em uma simulação em tempo real.
+modelo de crescimento da confiabilidade	Um tipo de teste de aceite realizado para verificar se um sistema está em conformidade com as leis, políticas e regulamentos relevantes.
+modelo de desenvolvimento incremental	Um tipo de modelo de ciclo de vida de desenvolvimento de software no qual o componente ou sistema é desenvolvido por meio de uma série de incrementos.
+modelo de desenvolvimento interativo	Um tipo de modelo de ciclo de vida de desenvolvimento de software no qual o componente ou sistema é desenvolvido através de uma série repetitiva de ciclos.
+modelo de desenvolvimento sequencial	Um tipo de modelo de ciclo de vida de desenvolvimento de software em que um sistema completo é desenvolvido de uma forma linear de várias fases discretas e sucessivas, sem sobreposição entre elas.
+modelo de teste	Modelo descrevendo o testware que é usado para testar um componente ou um sistema em teste.
+modelo MBT	Qualquer modelo usado em Teste Baseado no Modelo
+modelo ML	Uma implementação de aprendizagem de máquinas (ML) que gera uma previsão, classificação ou recomendação com base em dados de entrada.
+modelo V	Um modelo de ciclo de vida de desenvolvimento sequencial que descreve um relacionamento um-para-um entre as principais fases de desenvolvimento de software, desde a especificação de requisitos de negócios até a entrega, e seus respectivos níveis de teste, desde o teste de aceite até o teste de componente.
+moderador	(1) A pessoa responsável pela realização das reuniões de revisão; (2) A pessoa que conduz uma sessão de teste de usabilidade.
+modificável	O grau que um componente ou sistema pode ser alterado sem introduzir defeitos ou degradar a qualidade do produto existente.
+modo de falha	A manifestação física ou funcional de uma falha.
+modularidade	Grau em que um sistema é composto por componentes discretos, de modo que uma alteração em um componente tenha impacto mínimo em outros componentes.
+monitoramento de teste	A atividade que verifica o status das atividades de teste, identifica quaisquer desvios do planejado ou esperado e relata o status aos stakeholders.
+não rejeição	Grau em que as ações ou eventos podem ser comprovadamente realizados, para que as ações ou eventos não possam ser rejeitados posteriormente.
+nivel de instrução	Nível a que um objeto de teste é modificado, ajustando-o para testabilidade.
+nível de integridade da segurança	O nível de redução de risco proporcionado por uma função de segurança, relacionado com a frequência e a severidade do risco identificado.
+nível de risco	A medida qualitativa ou quantitativa de um risco definido por impacto e probabilidade
+nivel de teste	Uma instancia específica de um processo de teste
+objetivo do teste	A motivação para realização do teste.
+objeto de teste	O produto de trabalho a ser testado
+operabilidade	O grau que um componente ou sistema possui atributos que o tornam fácil de operar e controlar.
+operacionalização de perfil	Processo de desenvolvimento e implementação de um perfil operacional.
+oráculo de teste	Uma fonte para determinar os resultados esperados e compará-los com o resultado real do sistema em teste.
+padrão de codificação	Um padrão que descreve as características de um projeto ou uma descrição de modelo de dados ou componentes do programa.
+painel de controle	Uma representação de medidas dinâmicas de desempenho operacional para alguma organização ou atividade, usando métricas representadas por metáforas como mostradores visuais, contadores e outros dispositivos que se assemelham aos do painel de um automóvel, para que os efeitos de eventos ou atividades possam ser facilmente compreendidos e relacionados às metas operacionais.
+par definição-utilização	A associação da definição de uma variável com o uso subsequente dessa variável.
+partição de equivalência	Um subconjunto do domínio de valores de uma variável dentro de um componente ou sistema em que se espera que todos os valores sejam tratados da mesma forma com base na especificação.
+particionamento de equivalência	Uma técnica de teste caixa-preta em que os casos de teste são projetados para executar partições de equivalência usando um item representativo de cada partição.
+participante de teste de usabilidade	Um usuário representativo que resolve tarefas típicas em um teste de usabilidade.
+passar	Um teste é considerado aprovado se o seu resultado real coincide com o seu resultado esperado
+passeio	Um conjunto de testes exploratórios organizados em torno de um foco especial.
+pensar alto em teste de usabilidade	Uma técnica de teste de usabilidade em que os participantes do teste compartilham seus pensamentos com o moderador e observadores enquanto resolvem as tarefas de teste de usabilidade. Pensar em voz alta é útil para o entendimento do participante do teste.
+percentual de detecção de defeitos	Número de defeitos encontrados em uma fase de teste, dividido pelo número encontrado em todas as fases do teste ou em qualquer outro meio depois.
+perfil de carga	Uma especificação da atividade que um componente ou sistema que está sendo testado pode experimentar na produção. Um perfil de carga consiste em um número determinado de usuários virtuais processando um conjunto determinado de transações em um período de tempo de acordo com um perfil operacional predefinido
+perfil operacional	Um padrão real ou previsto da utilização de um componente ou sistema.
+performance funcional do ML	O grau em que um modelo ML atende aos critérios de performance funcional do ML.
+pesquisa de usuário	Uma avaliação de usabilidade em que uma amostra representativa de usuários é solicitada a relatar a avaliação subjetiva em um questionário com base em sua experiência no uso de um componente ou sistema
+pharming	Ataque de segurança destinado a direcionar o tráfego de um site para um site fraudulento sem o conhecimento ou consentimento do usuário.
+phishing	Tentativa de adquirir informações pessoais ou sensíveis mascarando-se como uma entidade confiável em uma comunicação eletrônica.
+piramide de teste	Um modelo gráfico representando a relação da quantidade de testes por nível, com um número maior na base do que no ponto mais elevado.
+planejamento de teste	Atividade de criação ou atualização de um plano de teste.
+planning poker	Uma técnica de estimativa baseada em consenso, usada principalmente para estimar o esforço ou o tamanho relativo de histórias de usuários no desenvolvimento de software Ágil. É uma variação do método Delphi Wideband usando um baralho de cartas com valores representando as unidades nas quais a equipe calcula.
+plano de melhoria de teste	Plano para atingir os objetivos de melhoria no processo de teste organizacional baseado no entendimento completo dos atuais pontos fortes e fracos dos processos de teste da organização e seus ativos.
+plano de revisão	Um documento que descreve a abordagem, recursos e cronograma de atividades destinadas a revisão. Ele identifica, entre outros: documentos e códigos para serem revisados, tipos de revisão para serem utilizados, os participantes, bem como os critérios de entrada e saída a serem aplicados em caso de revisões formais, e a justificativa para a sua escolha. É um registro do processo de revisão do planejamento.
+plano de teste	Documentação descrevendo os objetivos do teste a serem alcançados, os meios para realizá-lo, e o cronograma para atingí-lo, organizados para coordenar as atividades de teste.
+plano de teste de nível	Plano de teste que aborda um nível de teste.
+plano mestre de teste	Um plano de teste que é usado para coordenar vários níveis de teste ou tipos de teste.
+plantando falhas	O processo de adicionar intencionalmente as falhas conhecidas às já existentes num componente ou sistema para monitorar a taxa de detecção e remoção, e para estimar o número de falhas restantes.
+playtest	Teste ad hoc de um jogo feito pelos próprios jogadores para identificar falhas e obter feedback.
+política de segurança	Documento de alto nível que descreve os princípios, a abordagem e os principais objetivos da organização em matéria de segurança.
+política de teste	Documento de alto nível que descreve os princípios, abordagem, e os principais objetivos da organização em relação aos testes.
+ponteiro	Item de dados que especifica o local de um outro item de dados, por exemplo, um item de dados que especifica o endereço do registro do funcionário próximo a ser processado.
+ponteiro perdido	Ponteiro que referencia um local que está fora do escopo desse ponteiro ou que não existe.
+portabilidade	O grau para o qual um componente ou sistema pode ser transferido de um hardware, software ou outro ambiente operacional ou de utilização para outro.
+pós-condição	O estado esperado de um item de teste e seu ambiente no final da execução do caso de teste.
+precondição	O estado requerido de um item de teste e seu ambiente antes da execução do caso de teste.
+preparação dos dados de teste	A atividade para selecionar os dados dos bancos de dados existentes ou criar, gerar, manipular e editar dados para execução do teste
+prioridade	Nível de importância (do negócio) designado a um item, por exemplo, defeito.
+PRISMA (gerenciamento de produto de risco)	Uma abordagem sistemática para o teste baseado em risco que emprega identificação e análise de riscos do produto para criar uma matriz de risco do produto com base na probabilidade e impacto
+privacidade do dado	A protecção de informações de identificação pessoal ou de informações sensíveis de divulgação indesejada.
+probabilidade de risco	A probabilidade estimada de que um risco se tornará um resultado real ou evento.
+procedimento de segurança	Um conjunto de etapas necessárias para implementar a política de segurança e as serem tomadas em resposta a um incidente de segurança
+procedimento de teste	Uma sequência de casos de teste em ordem de execução e quaisquer ações associadas que possam ser necessárias para configurar as pré-condições iniciais e quaisquer atividades de finalização pós-execução.
+processo de teste	O conjunto de atividades inter-relacionadas que inclui planejamento de teste, monitoramento e controle de teste, análise de teste, modelagem de teste, implementação de teste, execução de teste e conclusão de teste.
+processo de teste crítico	Modelo baseado em conteúdo para a melhoria do processo de teste, construída em torno de doze processos críticos. Estes incluem processos altamente visíveis, de missão crítica em que o desempenho afeta os lucros e reputação da empresa.
+proteção contra erros do usuário	O grau em que um componente ou sistema protege os usuários contra erros.
+proteção funcional	A ausência de risco despropositado devido a riscos causados por comportamento defeituoso de sistemas elétricos ou eletrônicos.
+pseudo-oráculo	Uma variável derivada independentemente do item de teste utilizado para gerar resultados, que são comparados com os resultados do item de teste original, com base nas mesmas entradas de teste
+quadrantes de teste	Um modelo de classificação de tipos/níveis de teste em quatro quadrantes, relacionando-os a duas dimensões de objetivos de teste: apoio à equipe versus crítica ao produto, e tecnologia versus frente ao negócio.
+qualidade	Grau em que um componente ou sistema satisfaz as necessidades declaradas e implícitas de seus vários stakeholders.
+qualidade baseada em valores	Uma visão da qualidade medida pela relação entre o custo e o valor recebido de um produto ou serviço.
+qualidade baseada na manufatura	Uma visão da qualidade medida pelo grau de conformidade de um produto ou serviço com seu projeto pretendido e requisitos com base no processo utilizado.
+qualidade baseada na transcendência	Uma visão de qualidade baseada na percepção e no sentimento dos indivíduos.
+qualidade baseada no produto	Uma visão da qualidade medida pelo grau em que as características de qualidade bem definidas são atendidas.
+qualidade baseada no usuário	Uma visão da qualidade medida pelo grau em que as necessidades, desejos e anseios de um usuário são atendidos.
+qualidade de controle	Um conjunto de atividades destinadas a avaliar a qualidade de um componente ou sistema.
+qualidade integrada	Um conjunto de práticas para garantir que cada solução atenda aos padrões de qualidade em cada incremento do desenvolvimento, focando na garantia costrutiva de qualidade como uma responsabilidade compartilhada.
+quebra de senha	Ataque de segurança recuperando senhas secretas armazenadas em um sistema de computador ou transmitidas por uma rede
+rastreabilidade	O grau em que um relacionamento pode ser estabelecido entre dois ou mais produtos de trabalho.
+reconhecibilidade de adequação	Grau em que os usuários podem reconhecer se um componente ou sistema é apropriado para suas necessidades.
+reconhecimento	Exploração de uma área alvo com o objetivo de obter informações que podem ser úteis para um ataque.
+recuperabilidade	O grau em que um componente ou sistema pode recuperar os dados diretamente afetados por uma interrupção ou uma falha e restabelecer o estado desejado do componente ou sistema.
+redator	A pessoa que registra informações durante as reuniões de revisão.
+registrar teste	A atividade de criar um registro de teste.
+registro de teste	Registro cronológico das informações relevantes sobre a execução dos testes.
+relação metamórfica (MR)	Uma descrição de como uma mudança nas entradas de teste do caso de teste de origem para o caso de teste de acompanhamento, afeta uma mudança nas saídas esperadas do caso de teste de origem para o caso de teste de acompanhamento.
+relatório de defeito	Documentação da ocorrência, natureza e status de um defeito.
+relatório de progresso de teste	Um tipo de relatório de teste produzido em intervalos regulares sobre o progresso das atividades de teste em relação a uma referência, risco e alternativas que requerem uma decisão.
+relatório de resumo de teste	Um tipo de relatório de teste produzido em marcos de conclusão que fornece uma avaliação dos itens de teste correspondentes em relação aos critérios de saída.
+relatório de teste	Documentação resumindo as atividades e resultados de teste.
+requisito	Uma provisão que contém critérios a serem realizados.
+requisitos de usabilidade	Um requisito sobre a usabilidade de um componente ou sistema.
+resultado	Consequência ou resultado da execução de um teste. Inclui saídas para as telas, alterações de dados, envio de relatórios e mensagens.
+resultado esperado	O comportamento observável previsto de um componente ou sistema em execução sob condições especificadas, com base na sua especificação ou outra fonte.
+resultado falso-negativo	Resultado de teste que não consegue identificar a presença de um defeito que esteja realmente presente no objeto de teste.
+resultado falso-positivo	Resultado de teste em que um defeito é relatado embora nenhum defeito realmente exista no objeto de teste.
+resultado real	Comportamento produzido/observado quando um componente ou sistema é testado.
+retrospectiva	Um evento habitual no qual os membros da equipe discutem os resultados, revisam suas práticas e identificam melhorias.
+reutilizabilidade	Grau em que um produto de trabalho pode ser usado em mais de um sistema ou na construção de outros produtos de trabalho.
+revisão	Tipo de teste estático no qual um produto ou processo de trabalho é avaliado por uma ou mais pessoas para detectar defeitos ou fornecer melhorias.
+revisão ad-hoc	Uma técnica de revisão realizada informalmente sem um processo estruturado.
+revisão baseada em cenário	Uma técnica de revisão na qual um produto de trabalho é avaliado para determinar a sua capacidade de abordar cenários específicos.
+revisão baseada em checklist	Uma técnica de revisão guiada por uma lista de perguntas ou atributos obrigatórios
+revisão baseada em papéis	Uma técnica de revisão na qual um produto de trabalho é avaliado a partir da perspectiva de diferentes stakeholders.
+revisão baseada na perspectiva	Uma técnica de revisão na qual um produto de trabalho é avaliado a partir da perspectiva de diferentes stakeholders com o objetivo de derivar outros produtos de trabalho.
+revisão de gerenciamento	Uma avaliação sistemática do processo de aquisição, fornecimento, desenvolvimento, operação ou manutenção de software, realizada por ou em nome da administração que monitora o progresso, determina o status dos planos e cronogramas, confirma os requisitos e a alocação do sistema ou avalia a eficácia das abordagens de gerenciamento para conseguir adequação a um propósito.
+revisão de usabilidade especializada	Uma revisão informal de usabilidade em que os revisores são especialistas. Estes podem ser especialistas em usabilidade ou especialistas no tema, ou ambos.
+revisão formal	Uma forma de revisão que segue um processo definido com uma saída formalmente documentada.
+revisão informal	Um tipo de revisão que não segue um processo definido e que não tem saída formalmente documentada.
+revisão por pares	Uma forma de revisão de produtos de trabalho realizados por outras pessoas qualificadas para executar o mesmo trabalho.
+revisão técnica	Um tipo de revisão formal por uma equipe de pessoas tecnicamente qualificadas que examina a qualidade de um produto de trabalho e identifica discrepâncias em relação às especificações e normas.
+revisor	Um participante de uma revisão, que identifica problemas no produto de trabalho
+risco	Fator que pode resultar em consequências negativas, normalmente expresso em termos de impacto e possibilidade.
+risco de produto	Um risco que afeta a qualidade de um produto.
+risco de projeto	Um risco que afeta o sucesso do projeto.
+risco de qualidade	Um risco do produto relacionado a uma característica de qualidade.
+risco de segurança	Um risco de qualidade relacionado à segurança
+rodada de teste	Execução de um teste de uma versão específica do objeto de teste.
+salting	Técnica criptográfica que adiciona dados aleatórios (sal - tempero) aos dados do usuário antes do hash.
+script de teste	Uma sequência de instruções para a execução de uma suite de teste.
+script de teste de usabilidade	Um documento especificando uma sequência de ações para a execução de um teste de usabilidade. Ele é usado pelo moderador para acompanhar as perguntas da entrevista de briefing e pré-sessão, as tarefas de teste de usabilidade e as perguntas da entrevista pós-sessão.
+script kiddie	Pessoa que executa ataques de segurança que foram criados por outros hackers em vez de criar os próprios.
+script orientado por processo	Técnica onde os scripts são estruturados em cenários que representam casos de uso do software em teste. Os scripts podem ser parametrizados com dados de teste.
+scripting estruturado	Técnica de script que cria e utiliza uma biblioteca de reutilizáveis (de partes) scripts.
+scripting linear	Técnica de scripting simples, sem qualquer estrutura de controle nos scripts de teste.
+segurança	O grau em que um componente ou sistema protege seus dados e recursos contra o acesso não autorizado ou uso, assegurando o acesso e uso desobstruído para seus usuários legítimos.
+sessão de teste	Um período ininterrupto de tempo gasto na execução de testes. Em testes exploratórios, cada sessão de teste é focada em uma carta, mas os testadores também podem explorar novas oportunidades ou problemas durante uma sessão. O testador cria e executa em tempo real e registra seu progresso.
+sessão de teste de usabilidade	Uma sessão de teste em testes de usabilidade em que um participante de teste de usabilidade está executando testes, moderado por um moderador e observado por vários observadores.
+severidade	Grau de impacto que um defeito tem sobre o desenvolvimento ou operação de um componente ou sistema.
+simulador	Um esqueleto ou uma implementação com finalidade especial de um componente de software, usado para desenvolver ou testar um componente que chama ou que seja dependente dele. Ele substitui um componente.
+simulador	Um componente ou sistema usado durante testes que se comporta ou opera como um determinado componente ou sistema
+sistema alvo do teste	Tipo de objeto de teste que é classificado como um sistema.
+sistema de circuito fechado	Um sistema em que uma ação ou entrada de controle depende da saída ou de alterações na saída.
+sistema de cirtuíto aberto	Um sistema no qual a ação de controle ou entrada é independente da saída ou das mudanças na saída.
+sistema de detecção de intruso	Um sistema que monitora as atividades nas 7 camadas do modelo OSI da rede ao nível da aplicação, para detectar violações da política de segurança.
+sistema de sistemas	Vários sistemas heterogêneos e distribuídos que estão inseridos em redes em vários níveis e em múltiplos domínios interligados, para tratar problemas e objetivos de grande escala e inter-disciplinares, geralmente sem uma estrutura de gestão comum.
+smoke teste	Um conjunto de testes que cobre a principal funcionalidade de um componente ou sistema para determinar se ele funciona corretamente antes do início do teste planejado.
+software comercial de prateleira	Um tipo de produto desenvolvido em um formato idêntico para um grande número de clientes no mercado em geral.
+software in the loop	Testes dinâmicos realizados usando software real em um ambiente simulado ou com hardware experimental.
+Software Usability Measurement Inventory	Uma ferramenta de teste de usabilidade baseada em questionários que mede e avalia a experiência do usuário.
+solução de automação de teste	Realização/implementação de uma arquitetura de automação de testes, ou seja, uma combinação de componentes que implementam uma atribuição de automação de teste específico. Os componentes podem incluir ferramentas de off-the-shelf teste, quadros de automação de teste, bem como hardware de teste.
+SQL injection	Ataque de segurança inserindo instruções SQL mal-intencionadas em um campo de entrada para execução.
+substituibilidade	O grau em que um componente ou sistema pode substituir outro componente ou sistema específico para o mesmo fim no mesmo ambiente.
+suíte de teste	Um conjunto de scripts de teste ou procedimentos de teste utilizados na execução de um teste específico.
+suposição de erro	Uma técnica de teste na qual os testes são derivados com base no conhecimento do testador sobre falhas passadas ou conhecimento geral dos modos de falha.
+Systematic Test and Evaluation Process	Uma metodologia de testes estruturada usada como um modelo baseado em conteúdo para melhorar o processo de teste. Não requer que as melhorias ocorram em uma ordem específica.
+tabela de métodos	Uma tabela contendo diferentes abordagens de teste, técnicas de teste e tipos de teste que são necessários, dependendo do Automotive Safety Integrity Level (ASIL) e do contexto do objeto de teste.
+tarefa de teste de usabilidade	Uma atividade de execução de teste de usabilidade especificada pelo moderador que precisa ser realizada por um participante de teste de usabilidade dentro de um determinado período de tempo
+taxa de falha	Razão do número de falhas de uma dada categoria para uma dada unidade de medida, por exemplo, falhas por unidade de tempo, número de transações, número de execução de computadores.
+taxa de transferência do sistema	A quantidade de dados que passa por um componente ou sistema em um determinado período.
+taxonomia de defeito	Uma lista de categorias concebidas para identificar e classificar os defeitos.
+técnica de árvore de classificação	Uma técnica de teste caixa-preta na qual os casos de teste são modelados utilizando uma árvore de classificação.
+técnica de teste	Um procedimento usado para definir as condições do teste, modelar os casos de teste e especificar os dados que serão utilizados.
+técnica de teste baseada em defeito	Uma técnica de teste na qual os casos de teste são desenvolvidos a partir do que é conhecido sobre um tipo específico de defeito.
+técnica de teste baseada na experiência	Uma técnica de teste baseada apenas na experiência, conhecimento e intuição do testador.
+técnica de teste caixa-branca	Uma técnica de teste baseada apenas na estrutura interna de um componente ou sistema.
+técnica de teste caixa-preta	Uma técnica de teste baseada em uma análise da especificação de um componente ou sistema.
+tempo médio até a falha	O tempo médio do início da operação até a falha de um componente ou sistema
+tempo médio de reparo	O tempo médio que um componente ou sistema levará para se recuperar de uma falha.
+tempo médio entre falhas	O tempo médio entre falhas de um componente ou sistema.
+término anormal	O término involuntário da execução de um componente ou sistema antes de sua conclusão.
+Test Maturity Model Integrated	Framework estagiado em cinco níveis para a melhoria do processo de teste, relacionadas com o Capability Maturity Model Integration (CMMI), descreve os principais elementos de um processo de teste eficaz.
+testabilidade	O grau em que as condições de teste podem ser estabelecidas para um componente ou sistema, e os testes que podem ser realizados para determinar se essas condições foram cumpridas.
+testador	Pessoa que executa os testes
+teste	Conjunto de um ou mais casos de teste.
+teste	O processo que consiste em todas as atividades do ciclo de vida, estáticas e dinâmicas, relacionadas ao planejamento, preparação e avaliação de um componente ou sistema e produtos de trabalho relacionados, para determinar se satisfazem os requisitos especificados, e demonstrar que são adequados ao objetivo e detectar defeitos.
+teste aleatório	Uma técnica de teste caixa-preta na qual os casos de teste são projetados ao gerar-se entradas independentes aleatórias para corresponder a um perfil operacional.
+teste baseado em agente de usuário	Um tipo de teste no qual um cliente é usado para alternar a sequência do agente do usuário e identificar-se como um cliente diferente durante a execução de suítes de teste.
+teste baseado em checklist	Uma técnica de teste baseada na experiência em que o testador experiente usa uma lista de alto nível de itens a serem observados, verificados ou lembrados, ou um conjunto de regras ou critérios com os quais um produto deve ser verificado.
+teste baseado em dispositivo	Um tipo de teste no qual os conjuntos de teste são executados em dispositivos físicos ou virtuais
+teste baseado em modelo	Testes baseados ou envolvendo modelos.
+teste baseado em requisito	Uma abordagem aos testes em que os casos de teste são concebidos com base nos requisitos.
+teste baseado em risco	Testes em que o gerenciamento, a seleção, a priorização e o uso de atividades e recursos de teste são baseados nos tipos e níveis de risco correspondentes.
+teste baseado em sessão	Abordagem de testes em que as atividades são planejadas como sessões de teste.
+teste baseado na experiência	Testes baseados na experiência, conhecimento e intuição do testador.
+teste baseado na proximidade	Um tipo de teste para confirmar que os sensores podem detectar objetos próximos sem contato físico.
+teste caixa-branca	Teste baseado na análise da estrutura interna de um componente ou sistema.
+teste com scripts	Execução do teste seguindo previamente uma sequência documentada de testes.
+teste combinatório	Uma técnica de teste caixa-preta na qual os casos de teste são modelados para testar combinações específicas de valores de vários parâmetros
+teste consecutivo	Teste para comparar duas ou mais variáveis de um item de teste ou de um modelo de simulação do mesmo item de teste, executando os mesmos casos de teste em todas as variáveis e comparando os resultados obtidos.
+teste contínuo	Uma abordagem que envolve um processo de teste precoce, frequente, abrangente e automatizado, para obter feedback sobre os riscos de negócio associados a um candidato a lançamento de software o mais rápido possível.
+teste da perspectiva do jogador	Testes feitos por testadores do ponto de vista do jogador para validar a sua satisfação.
+teste de aceite	Nível de teste que se concentra na determinação de aceitar o sistema.
+teste de aceite contratual	Um tipo de teste de aceite realizado para verificar se um sistema satisfaz os seus requisitos contratuais.
+teste de aceite de usuário	Um tipo de teste de aceite realizado para determinar se os usuários pretendidos aceitam o sistema.
+teste de aceite operacional	Um tipo de teste de aceite realizado para determinar se o pessoal de operações e/ou administração de sistemas podem aceitar um sistema.
+teste de aceite regulatório	Um tipo de teste de aceite realizado para verificar se um sistema está em conformidade com as leis, políticas e regulamentos relevantes.
+teste de API	Testes realizados enviando comandos diretamente para o software em teste utilizando interfaces de programação de aplicativo.
+teste de áudio	Teste para determinar se a música e os efeitos sonoros irão envolver o usuário e melhorar o jogo.
+teste de caminho	Uma técnica de teste caixaibranca na qual os casos de teste são modelados para executar caminhos.
+teste de campo	Um tipo de teste conduzido para avaliar o comportamento do sistema sob condições produtivas de conectividade no campo.
+teste de capacidade	Teste para avaliar a capacidade de um sistema
+teste de carga	Um tipo de teste de desempenho conduzido para avaliar o comportamento de um componente ou sistema sob cargas variáveis, geralmente entre condições antecipadas de uso baixo, típico e de pico.
+teste de caso de uso	Uma técnica de teste caixa-negra na qual os casos de teste são projetados para exercitar os comportamentos de uso de casos.
+teste de CLI	Testes realizados enviando comandos para o software em teste usando uma interface de linha de comando dedicado.
+teste de componentes	Um nível de teste que se concentra em componentes individuais de hardware ou software.
+teste de comunicação	Coleta e análise de dados a partir de atividades de teste e, posteriormente, a consolidação dos dados em um relatório para informar as partes interessadas.
+teste de concorrência	Teste para avaliar se um componente ou sistema executados simultaneamente comportam-se como especificado.
+teste de condição múltipla	Uma técnica de teste caixa-branca na qual os casos de teste são modelados para exercitar combinações de resultados de condições atômicas.
+teste de condição/decisão modificada	Técnica de teste caixa-branca em que os casos de teste são modelados para testar os resultados de condição única que afetam independentemente o resultado de uma decisão.
+teste de condições	Uma técnica de teste caixa-branca na qual os casos de teste são desenhados para exercitar os resultados das condições atómicas.
+teste de confirmação	Um tipo de teste relacionado à mudança realizado após a correção de um defeito para confirmar que uma falha causada por esse defeito não ocorre novamente.
+teste de conformidade	Processo de testes para determinar a conformidade do componente ou sistema.
+teste de dados de entrada	Um nível de teste que se concentra na qualidade dos dados utilizados para treinamento e previsão por modelos ML.
+teste de decisão	Uma técnica de teste caixa-branca em que os casos de teste são projetados para executar os resultados da decisão.
+teste de escalabilidade	Teste que determina a escalabilidade de um produto de software.
+teste de estresse	Um tipo de teste de desempenho realizado para avaliar se um sistema ou componente está no limite ou além do limite da sua carga de trabalho prevista ou especificada, ou com menor disponibilidade de recursos, como acesso à memória ou servidores.
+teste de fluxo de controle	Uma técnica de teste caixa-branca na qual os casos de teste são desenhados com base em fluxos de controle.
+teste de gancho	Personalização de interface de software que permite testes automatizados de um objeto de teste.
+teste de GUI	Testes realizados interagindo com o software em teste através da interface gráfica do usuário.
+teste de história de usuário	Uma técnica de modelagem de teste caixa-preta na qual os casos de teste são projetados com base nas estórias do usuário para verificar sua implementação correta.
+teste de instrução	Técnica de teste caixa-branca em que os casos de teste são modelados para executar instruções.
+teste de integração	Um nível de teste que se concentra nas interacções entre componentes ou sistemas.
+teste de integração de componentes	Teste em que os artefatos de teste são interfaces e interações entre componentes integrados.
+teste de integração de sistema	Um nível de teste que se concentra nas interações entre sistemas.
+teste de integração de vizinhança	Um tipo de teste de integração no qual todos os nós que se conectam em um nó são a base para o teste de integração.
+teste de integração em pares	Um tipo de teste de integração que visa pares de componentes que trabalham em conjunto, como mostrado em um gráfico de chamada.
+teste de interface	Um tipo de teste de integração realizado para verificar a integração entre componentes ou sistemas.
+teste de manutenção	Testa as alterações feitas em um sistema operacional ou o impacto de um ambiente alterado em um sistema operacional.
+teste de multidão	Uma abordagem de testar onde o mesmo é distribuído para um grande grupo de testadores.
+teste de PAR sheet	Teste para determinar se o jogo retorna os resultados matemáticos corretos na tela, nas contas dos jogadores e na conta do cassino.
+teste de pares	Uma técnica de teste caixa-preta na qual os casos de teste são modelados para exercitar pares de pares de valores de parâmetro.
+teste de penetração	Técnica de teste com o objetivo de explorar vulnerabilidades de segurança (conhecidas ou desconhecidas) para obter acesso não autorizado.
+	 
+teste de performance	Testes para determinar a eficiência do desempenho de um componente ou sistema.
+teste de pico	Teste para determinar a capacidade de um sistema se recuperar de rajadas repentinas de cargas de pico e retornar a um estado estável.
+teste de ponta-a-ponta	Um tipo de teste no qual os processos de negócio são testados do início ao fim sob circunstâncias semelhantes às da produção.
+teste de pós-lançamento	Um tipo de teste para garantir que a liberação seja executada corretamente e o aplicativo possa ser implantado.
+teste de qualidicação do sistema	Testes realizados no sistema completo e integrado de componentes de software, componentes de hardware e mecanismos para fornecer evidências de conformidade com os seus requisitos e determinando que está pronto para entrega.
+teste de qualificação de software	Testes realizados no software completo e integrado para fornecer evidências de conformidade com os seus requisitos.
+teste de regressão	Um tipo de teste relacionado a mudanças para detectar se os defeitos foram introduzidos ou descobertos em áreas inalteradas do software.
+teste de resistência	Teste para determinar a estabilidade de um sistema sob uma carga significativa durante um período significativo dentro do contexto operacional do sistema.
+teste de segurança	Teste para determinar a segurança do produto de software.
+teste de sistema	Nível de teste que se concentra na verificação de que um sistema como um todo atenda aos requisitos especificados.
+teste de tabela de decisão	Uma técnica de teste caixa-preta na qual os casos de teste são modelados para exercitar as combinações de condições e as ações resultantes mostradas em uma tabela de decisão.
+teste de transição de estado	Técnica de teste caixa-preta na qual os casos de teste são modelados para exercitar elementos de um modelo de transição de estado.
+teste de usabilidade	Teste que determina a extensão até a qual o produto de software é entendido, fácil de aprender, fácil de operar e atraente para os usuários sob condições especificas.
+teste de verificação de compilação	Um conjunto de testes automatizados que valida a integridade de cada nova compilação, verificando sua principal funcionalidade, sua estabilidade e sua testabilidade.
+teste dinâmico	Teste que envolve a execução do item de teste.
+teste do modelo ML	Um nível de teste que se concentra na capacidade de um modelo ML de atender aos critérios de performance funcional e não-funcional exigidos pelo ML.
+teste em pares	Duas pessoas, por exemplo, dois testadores, um desenvolvedor e um testador, ou um usuário final e um testador, que trabalham juntos para descobrir defeitos. De modo geral, eles compartilham o mesmo computador e alternam-se no controle durante o teste.
+teste estático	Teste que não envolve a execução de um item de teste
+teste exaustivo	Uma abordagem de teste em que o conjunto de testes compreende todas as combinações de valores de entrada e condições prévias.
+teste exploratório	Uma abordagem de teste, na qual os testadores projetam e executam dinamicamente testes com base em seu conhecimento, na exploração de itens e nos resultados de testes anteriores.
+teste funcional	Teste realizado para avaliar se um componente ou sistema satisfaz os requisitos funcionais.
+teste fuzz	Uma técnica de teste de software usada para descobrir vulnerabilidades de segurança, inserindo grandes quantidades de dados aleatórios, chamados fuzz, no componente ou sistema.
+teste matemático	Teste para determinar a exatidão da implementação da tabela de pagamento, os resultados do gerador de números aleatórios e o retorno aos cálculos do jogador.
+teste multiplayer	Teste para determinar se muitos jogadores podem interagir simultaneamente com o mundo dos jogos, com oponentes controlados por computador, servidores de jogos e outros, como esperado, de acordo com o desenho do jogo.
+teste não funcional	Testes realizados para avaliar se um componente ou sistema atende aos requisitos não funcionais.
+teste negativo	Testes destinados a mostrar que um componente ou sistema não funciona. O teste negativo está relacionado à atitude do testador em vez de uma abordagem de teste específica ou técnica de projeto de teste, por exemplo, testes com valores de entrada ou exceções inválidos.
+teste orientado por dados	Uma técnica de script que usa arquivos para conter os dados de teste e os resultados esperados necessários para executar do teste.
+teste orientado por palavra-chave	Uma técnica de script na qual eles possuem palavras-chave de alto nível e arquivos de suporte que contêm scripts de baixo nível que implementam essas palavras-chave.
+teste reativo	Teste que responde dinamicamente ao sistema real em teste e os resultados dos testes a serem obtidos. Normalmente o teste reativo tem um ciclo reduzido de planejamento e as fases de modelagem de teste e implementação não são realizadas até o objeto de teste ser recebido.
+teste relacionado a mudanças	Tipo de teste iniciado pela modificação de um componente ou sistema.
+teste terceirizado	Testes realizados por pessoas que não são co-locadas com a equipe do projeto e não são colegas de trabalho.
+teste visual	Teste que usa o reconhecimento de imagem para interagir com objetos da interface gráfica do usuário (GUI)
+Testes A/B	Uma abordagem de teste estatístico para determinar qual de dois sistemas ou componentes tem melhor desempenho.
+testes ad hoc	Testes informais realizados sem análise de teste e projeto de teste
+testes contraditórios	Uma técnica de teste baseada na tentativa de criação e execução de exemplos contraditórios para identificar defeitos em um modelo ML.
+testes ergonômicos	Testes para determinar se um componente ou sistema e seus dispositivos de entrada estão sendo usados corretamente na postura correta.
+testes internalizado	Testes realizados por pessoas que são co-locadas com a equipe do projeto, mas não são colegas de trabalho.
+testes metamórficos (MT)	Uma técnica de teste na qual as entradas e os resultados esperados são extrapolados a partir de um caso de teste executado com sucesso usando uma relação metamórfica.
+testware	Produtos de trabalho produzidos durante o processo de teste para uso no planejamento, projeto, execução, avaliação e relatório de testes.
+think time	A quantidade de tempo exigida por um usuário para determinar e executar a próxima ação em uma sequência de ações.
+tipo de indicator Myers-Briggs	Um indicador de preferência psicológica representando as diferentes personalidades e estilos de comunicação das pessoas.
+tipo de teste	Um grupo de atividades de teste com base em objetivos específicos que visam características específicas de um componente ou sistema.
+tolerância a falha	O grau em que um componente ou sistema opera como pretendido, apesar da presença de falhas de hardware ou software.
+Total Quality Management	Uma abordagem de gestão da qualidade em toda a organização baseada na participação dos funcionários para alcançar o sucesso a longo prazo através da satisfação do cliente.
+TPI Next	Uma estrutura de negócios voltada para a melhoria contínua do processo de teste que descreve de forma eficaz e eficiente seus principais elementos.
+treinamento em qualidade	As atividades se concentraram em ajudar uma organização ágil a identificar, compreender e lidar com a gestão de qualidade, valor de negócio, fluxo e colaboração do cliente.
+usabilidade	O grau em que um componente ou sistema pode ser usado por usuários específicos para atingir objetivos específicos em um contexto de uso específico.
+usuário virtual	Uma simulação das atividades realizadas de acordo com um perfil operacional do usuário.
+utilização de recurso	O grau em que as quantidades e os tipos de recursos utilizados por um produto ou sistema, no desempenho das suas funções, satisfazem os requisitos.
+validação	Confirmação, por meio de exames e do fornecimento de evidências objetivas, que os requisitos de uso ou aplicação específica tencionada foram atendidos.
+valor limite	Um valor mínimo ou máximo de uma partição de equivalência ordenada
+varredura de malware	Análise estática com o objetivo de detectar e remover códigos maliciosos recebidos em uma interface.
+varredura de vulnerabilidades	Analisador estático que é usado para detectar vulnerabilidades de segurança específicas no código.
+vazamento de memória	Uma falha no acesso à memória devido a um defeito na lógica alocação dinâmica de memória de um programa que faz com que ele não libere a memória após ter terminado de usá-la.
+verificação	Confirmação por meio de teste e do fornecimento de evidências objetivas que os requisitos especificados foram atendidos.
+vetor de ataque	Um caminho ou meio pelo qual um intruso pode obter acesso a um sistema para fins maliciosos.
+virtualização de serviços	Uma técnica para permitir a entrega virtual de serviços implantados, acessados e gerenciados remotamente.
+vulnerabilidade de segurança	Fraqueza no sistema que poderia permitir um ataque de segurança bem-sucedido.
+Web Content Accessibility Guidelines	Parte de uma série de diretrizes de acessibilidade na Web publicadas pela Iniciativa de Acessibilidade à Web (WAI) do World Wide Web Consortium (W3C), a principal organização internacional de padrões para a Internet. Eles consistem em um conjunto de diretrizes para tornar o conteúdo acessível, principalmente para pessoas com deficiências
+Website Analysis and Measurement Inventory	Um serviço de análise de websites comerciais que fornece um questionário para medir a experiência do usuário e avaliar a entrega de objetivos de negócios on-line.
+Wide Band Delphi	Técnica de estimativa de teste baseada em especialização que visa produzir uma estimativa precisa utilizando a sabedoria coletiva dos membros da equipe.
+zona de rede	Uma sub-rede com um nível de confiança definido. Por exemplo, a Internet ou uma zona pública seria considerada não confiável.
+zona desmilitarizada	Subrede física ou lógica que contém e expõe os serviços externos voltados para uma rede não confiável, comumente a Internet.
