@@ -22,8 +22,8 @@ public class loginTestAluno {
         void setUp() throws InterruptedException { // Faz login basico com o persona do Professor Joao Avelino
 
             //Configura
-            String usuario = "nowaj57236@dogemn.com";
-            String password="Evening137";
+//            String usuario = "nowaj57236@dogemn.com"; //O Eveclass pede confirmação por email, por isso para aluno estou logando por cookie
+//            String password="Evening137"; //e não será usado usuario e senha
             String chromeDriverPath = "/opt/homebrew/bin/chromedriver";//Configura caminho do chromedriver
             String testandoEveclassUrl = "https://testando.eveclass.com/pt/auth/entrar"; //Configura URL do site
 
@@ -44,7 +44,7 @@ public class loginTestAluno {
             //Navega para a página do Eveclass
             navegador.get(testandoEveclassUrl);
 
-            //Adiciona Cookies do aluno Gabriela Silva
+            //Adiciona Cookies da aluna Gabriela Silva
             Cookie cookie = new Cookie("ev_dv_62bf145fd8ff1ef247cd4eda","6434e0108672e6ddc5337cbd");
             Cookie cookie2 = new Cookie("ev_at_62bf145fd8ff1ef247cd4eda","333b97d0-d820-11ed-8ca3-9f3e6d93da1c0b29316f-8964-4735-a0ca-bda5422cb7b2");
             navegador.manage().addCookie(cookie);

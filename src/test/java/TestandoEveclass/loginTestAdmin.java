@@ -36,8 +36,6 @@ public class loginTestAdmin {
         navegador.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         navegador.manage().window().maximize();
 
-
-
         //Navega para a página do Eveclass
         navegador.get(testandoEveclassUrl);
 
