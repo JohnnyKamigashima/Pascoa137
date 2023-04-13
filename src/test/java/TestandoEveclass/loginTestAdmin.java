@@ -49,7 +49,7 @@ public class loginTestAdmin {
         campoSenha.click();
         campoSenha.sendKeys(password);
 
-//        Clica entrar
+        // Clica entrar
         navegador.findElement(By.cssSelector("span[class='button-text']")).click();
 
     }
