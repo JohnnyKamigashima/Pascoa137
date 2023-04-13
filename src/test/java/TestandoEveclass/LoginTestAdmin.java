@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import java.time.Duration;
 
 @DisplayName("Login do Testando Eveclass")
-public class loginTestAdmin {
+public class LoginTestAdmin {
     WebDriver navegador;
 
     @BeforeEach
