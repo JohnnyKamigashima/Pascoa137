@@ -1,0 +1,8 @@
+{
+  "totalprice" : 300,
+  "bookingdates" : {
+    "checkin" : "2018-01-01",
+    "checkout" : "2023-04-01"
+  },
+  "additionalneeds" : "Dinner"
+}
