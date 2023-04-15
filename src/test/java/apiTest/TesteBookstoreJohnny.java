@@ -60,7 +60,7 @@ class TesteBookstoreJohnny {
     }
 
     @ParameterizedTest(name = "{displayName} {0} ao Titulo {1}")
-    @CsvFileSource(resources = "/src/test/resources/csv/massaBookstoreIsbn.csv", numLinesToSkip = 1, delimiter = ';')
+    @CsvFileSource(resources = "/csv/massaBookstoreIsbn.csv", numLinesToSkip = 1, delimiter = ';')
     @Order(1)
     @DisplayName("Verifica ISBN")
     void adicionaIsbnAoUsuario(String isbn, String titulo) throws IOException {

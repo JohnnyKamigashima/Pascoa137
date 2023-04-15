@@ -2,10 +2,7 @@ package unitTest;// Bibliotecas
 import br.com.iterasys.Calculadora;
 import org.junit.jupiter.api.Test;
 
-import java.sql.SQLOutput;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 // Classe
 public class TesteCalculadora { // inicio da classe

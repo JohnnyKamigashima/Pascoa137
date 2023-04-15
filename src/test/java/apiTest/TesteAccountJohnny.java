@@ -3,6 +3,9 @@ package apiTest;
 import apiTest.pojo.Configuracao;
 import apiTest.pojo.Usuario;
 import com.google.gson.Gson;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
@@ -31,35 +34,55 @@ class TesteAccountJohnny {
     //Lê o arquivo json e instancia o objeto Configuracao
     String configuracaoJson = leArquivoJson("src/test/resources/json/configuracao.json");
     Configuracao configuracao = gson.fromJson(configuracaoJson, Configuracao.class);
+    String userId; //UserId global por que pega no teste e usa no teardown
+    String token; //Token global por que pega no teste e usa no teardown
 
+    @AfterEach
+    void tearDown() {
+        //Deleta a conta criada
+        given()
+                .log().all()
+                .contentType(ContentType.JSON)
+                .header("Authorization", "Bearer " + token)
+        .when()
+                .delete(configuracao.getBaseUrl() + configuracao.getEndpoints().getUser() + "/" + userId)
+        .then()
+                .log().all()
+                .statusCode(204);
+    }
     @Test
     @DisplayName("Teste de criação de uma conta")
     @Order(1) //Executa em primeiro
     void testeCriarUmaConta() throws IOException {
         //Le arquivo com informação de um usuário
         String jsonBody = leArquivoJson("src/test/resources/json/usuarioBookStore.json");
-
-        //Transforma o json em um objeto usuario
+        Gson gson = new Gson();
         Usuario usuario = gson.fromJson(jsonBody, Usuario.class);
 
+        Response response = (Response)  //Pega resultado e coloca no response
             given()
                 .log().all()
-                .contentType("application/json")
+                .contentType(ContentType.JSON)
                 .body(jsonBody)
             .when()
                 .post(configuracao.getBaseUrl() + configuracao.getEndpoints().getUser())
             .then()
                 .log().all()
-                .statusCode(406)
-                .body("message", is("User exists!"));
+                .statusCode(201)
+                .body("username", is(usuario.getUserName()))
+                .extract();
+
+        //Guarda informações para deletar a conta depois
+        userId = response.jsonPath().getString("userID");
+        token = getToken(jsonBody);
     };
 
     @ParameterizedTest
     @Order(2) //Executa em segundo
     @CsvSource(value = {
-            "Frieda,11peaN*ts",
-            "Shermy,11peaN*ts",
-            "PigPen,11peaN*ts"
+            "Frieda1,11peaN*ts",
+            "Shermy1,11peaN*ts",
+            "PigPen1,11peaN*ts"
             }, delimiter = ',') //Separa os valores por virgula
     @DisplayName("Teste de criação Parametrizada de contas")
     void TesteDeCriacaoParametrizadaDeContas(String username, String password) throws IOException {
@@ -74,20 +97,26 @@ class TesteAccountJohnny {
         String jsonBodyParametrizado = gson.toJson(usuario);
 
         //Executa
+        Response response = (Response) //Pega resultado e coloca no response
         given()
                 .log().all()
-                .contentType("application/json")
+                .contentType(ContentType.JSON)
                 .body(jsonBodyParametrizado)
         .when()
                 .post(configuracao.getBaseUrl() + configuracao.getEndpoints().getUser())
         .then()
                 .log().all()
-                .statusCode(406)
-                .body("message", is("User exists!"));
+                .statusCode(201)
+                .body("username", is(usuario.getUserName()))
+                .extract();
+
+        //Guarda informações para deletar a conta depois
+        userId = response.jsonPath().getString("userID");
+        token = getToken(jsonBodyParametrizado);
     }
 
     @ParameterizedTest
-    @CsvFileSource(resources = "/src/test/resources/csv/massaBookstoreUsers.csv", delimiter = ',', numLinesToSkip = 1) //Lê o arquivo csv
+    @CsvFileSource(resources = "/csv/massaBookstoreUsers.csv", delimiter = ',', numLinesToSkip = 1) //Lê o arquivo csv
     @Order(3) //Executa em terceiro
     @DisplayName("Teste de criação Parametrizada de contas usando CSV")
     void TesteDeCriacaoParametrizadaDeContasCSV(String username, String password) throws IOException {
@@ -102,6 +131,7 @@ class TesteAccountJohnny {
         String jsonBodyParametrizado = gson.toJson(usuario);
 
         //Executa
+        Response response = (Response) //Pega resultado e coloca no response
         given()
                 .log().all()
                 .contentType("application/json")
@@ -110,7 +140,31 @@ class TesteAccountJohnny {
                 .post(configuracao.getBaseUrl() + configuracao.getEndpoints().getUser())
         .then()
                 .log().all()
-                .statusCode(406)
-                .body("message", is("User exists!"));
+                .statusCode(201)
+                .body("username", is(usuario.getUserName()))
+                .extract();
+
+        //Guarda informações para deletar a conta depois
+        userId = response.jsonPath().getString("userID");
+        token = getToken(jsonBodyParametrizado);
     }
+
+    //Função para pegar o token
+    public String getToken(String jsonBody){
+        return given()
+                .log().all()
+                .contentType(ContentType.JSON)
+                .body(jsonBody)
+        .when()
+                .post(configuracao.getBaseUrl() + configuracao.getEndpoints().getToken())
+        .then()
+                .log().all()
+                .statusCode(200)
+                .body("status", is("Success"))
+                .body("result", is("User authorized successfully."))
+                .extract()
+                    .jsonPath()
+                    .getString("token");
+    }
+
 }

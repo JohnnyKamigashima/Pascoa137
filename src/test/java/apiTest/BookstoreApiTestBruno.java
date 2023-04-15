@@ -1,4 +1,4 @@
-package apiTestSprint3;
+package apiTest;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-public class BookstoreApiTest {
+public class BookstoreApiTestBruno {
 
 //    private CSVReader reader;
 
