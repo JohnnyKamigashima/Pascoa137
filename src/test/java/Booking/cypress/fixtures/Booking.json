@@ -1,0 +1,68 @@
+[
+    {
+        "additionalneeds": "Breakfast",
+        "depositpaid": "true",
+        "bookingdates": {
+            "checkin": "2018-01-01",
+            "checkout": "2019-01-01"
+        },
+        "firstname": "Jim",
+        "lastname": "Brown",
+        "totalprice": "111"
+    },
+    {
+        "additionalneeds": "Breakfast",
+        "bookingdates": {
+            "checkin": "2018-02-01",
+            "checkout": "2019-02-01"
+        },
+        "depositpaid": "true",
+        "firstname": "Jane",
+        "lastname": "Brown",
+        "totalprice": "111"
+    },
+    {
+        "additionalneeds": "Breakfast",
+        "bookingdates": {
+            "checkin": "2018-03-01",
+            "checkout": "2019-03-01"
+        },
+        "depositpaid": "false",
+        "firstname": "James",
+        "lastname": "Cameron",
+        "totalprice": "222"
+    },
+    {
+        "additionalneeds": "Breakfast",
+        "bookingdates": {
+            "checkin": "2018-04-01",
+            "checkout": "2019-04-01"
+        },
+        "depositpaid": "true",
+        "firstname": "Richard",
+        "lastname": "White",
+        "totalprice": "333"
+    },
+    {
+        "additionalneeds": "Breakfast",
+        "bookingdates": {
+            "checkin": "2018-05-01",
+            "checkout": "2019-05-01"
+        },
+        "depositpaid": "false",
+        "firstname": "Susan",
+        "lastname": "Davis",
+        "totalprice": "444"
+    },
+    {
+        "additionalneeds": "Breakfast",
+        "bookingdates": {
+            "checkin": "2018-06-01",
+            "checkout": "2019-06-01"
+        },
+        "depositpaid": "true",
+        "firstname": "Fabrice",
+        "lastname": "Trello",
+        "totalprice": "555"
+    }
+]

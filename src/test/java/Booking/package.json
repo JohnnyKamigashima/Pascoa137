@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "cypress": "^12.9.0"
+  },
+  "devDependencies": {
+    "csv-parse": "^5.3.8",
+    "eslint": "^8.38.0",
+    "eslint-plugin-cypress": "^2.13.2"
+  }
+}
