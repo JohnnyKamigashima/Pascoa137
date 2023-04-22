@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Pascoa137" />
+        <module name="Pascoa137-1" />
       </profile>
     </annotationProcessing>
   </component>

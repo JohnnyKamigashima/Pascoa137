@@ -1,6 +1,8 @@
 package apiTest;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -24,10 +26,10 @@ import static org.hamcrest.Matchers.is;
         @Test
         public void testarIncluirAccount() throws IOException {
             // carregar os dados do nosso json
-            String jsonBody = lerArquivoJson("src/test/resources/json/userAccount1.json");
+            String jsonBody = lerArquivoJson("src/test/resources/json/useringrid1.json");
 
 
-            String username = "ingridF";
+            String username = "ingridSF";
 
             // realizar o teste
             given()                                         // Dado que
@@ -47,4 +49,7 @@ import static org.hamcrest.Matchers.is;
 
     }// fim da classe
 
-}
+
+
+
+
