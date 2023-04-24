@@ -10,7 +10,6 @@ import org.junit.jupiter.api.Test;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import apiTest.pojo.Configuracao;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.is;
 
