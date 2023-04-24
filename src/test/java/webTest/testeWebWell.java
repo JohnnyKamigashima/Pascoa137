@@ -54,10 +54,16 @@ public class testeWebWell {
         driver.findElement(By.cssSelector("#\\31 6237703116770 > .item-pill")).click();
         String expectedUrl = "https://testando.eveclass.com/pt/blog";
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS); // aumenta o tempo de espera implícito
+
+        //Busca um elemento unico da página de Blog
+        String iconeBlog = driver.findElement(By.cssSelector(".blog-home-nav.fit-options")).getText();
+        //Verifica se esse elemento possui o texto Blog
+        assertEquals(iconeBlog, "Blog");
+
         assertEquals(expectedUrl, driver.getCurrentUrl());
 
-        }
-
     }
+
+}
 
 
