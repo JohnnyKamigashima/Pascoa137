@@ -3,11 +3,13 @@ package apiTest;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.junit.Assert;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class BookstoreApiTestBruno {
 
@@ -36,8 +38,8 @@ public class BookstoreApiTestBruno {
         int statusCode = response.getStatusCode();
         String responseBody = response.getBody().asString();
 
-        Assert.assertEquals(statusCode, 200);
-        Assert.assertTrue(responseBody.contains("bookingid"));
+        assertEquals(statusCode, 200);
+        assertTrue(responseBody.contains("bookingid"));
 //        Assert.assertTrue(responseBody.contains("userId"));
 //        Assert.assertTrue(responseBody.contains("title"));
 //        Assert.assertTrue(responseBody.contains("body"));
@@ -54,21 +56,21 @@ public class BookstoreApiTestBruno {
                     .post();
 
             int statusCode = response.getStatusCode();
-            Assert.assertEquals(statusCode, 200);
+            assertEquals(statusCode, 200);
 
             String responseBody = response.getBody().asString();
-            Assert.assertTrue(responseBody.contains("bookingid"));
+            assertTrue(responseBody.contains("bookingid"));
 
             int bookingId = response.jsonPath().getInt("bookingid");
 
             Response getBookingResponse = RestAssured.get("/" + bookingId);
             String getBookingResponseBody = getBookingResponse.getBody().asString();
-            Assert.assertTrue(getBookingResponseBody.contains(firstname));
-            Assert.assertTrue(getBookingResponseBody.contains(lastname));
-            Assert.assertTrue(getBookingResponseBody.contains(totalprice));
-            Assert.assertTrue(getBookingResponseBody.contains(depositpaid));
-            Assert.assertTrue(getBookingResponseBody.contains(checkin));
-            Assert.assertTrue(getBookingResponseBody.contains(checkout));
+            assertTrue(getBookingResponseBody.contains(firstname));
+            assertTrue(getBookingResponseBody.contains(lastname));
+            assertTrue(getBookingResponseBody.contains(totalprice));
+            assertTrue(getBookingResponseBody.contains(depositpaid));
+            assertTrue(getBookingResponseBody.contains(checkin));
+            assertTrue(getBookingResponseBody.contains(checkout));
         }
 //
 //    @DataProvider(name = "bookingsData")

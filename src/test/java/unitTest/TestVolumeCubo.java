@@ -1,15 +1,14 @@
 package unitTest;
 // bibliotecas necessarias para usar nos testes
-import org.junit.Test;
 import org.junit.jupiter.api.Order;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 import org.junit.jupiter.params.provider.CsvSource;
-import static org.junit.Assert.assertEquals;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestVolumeCubo {
-
 
     @Test
     //O "@Test" é uma anotação utilizada em algumas linguagens de
