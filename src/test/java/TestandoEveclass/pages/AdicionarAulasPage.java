@@ -20,9 +20,10 @@ public class AdicionarAulasPage {
 
     public AdicionarAulasPage clicarEnviarArquivo(String arquivo) throws InterruptedException {
         navegador.findElement(By.xpath("//button[normalize-space()='Enviar arquivo']")).click();
+        String absolutePath = System.getProperty("user.dir") + arquivo;
 
         WebElement fileInput = navegador.findElement(By.xpath("//input[contains(@id,'video da aula-')]"));
-        fileInput.sendKeys(arquivo);
+        fileInput.sendKeys(absolutePath); // Upload the file using the absolute path
         Thread.sleep(1000);
         return this;
     }

@@ -50,6 +50,7 @@ public class LoginTestAdmin {
         campoSenha.sendKeys(password);
 
         // Clica entrar
+        Thread.sleep(2000);
         navegador.findElement(By.cssSelector("span[class='button-text']")).click();
 
     }

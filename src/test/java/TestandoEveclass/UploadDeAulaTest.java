@@ -66,7 +66,7 @@ public class UploadDeAulaTest {
         new PainelAdminPage(navegador)
                 .clicarBotaoAulas()
                 .clicarNovaAula()
-                .clicarEnviarArquivo("/Users/johnnykamigashima/odrive/GDrive/Biblioteca/Iterasys_FTS137/SquadAgil/Evening_Squad_22h_137_B/Sprint 3/Pascoa137/src/test/resources/Aula1Login.mp4")
+                .clicarEnviarArquivo("/src/test/resources/Aula1Login.mp4")
                 .preencheTituloDaAula("Aula sobre Login no Eveclass")
                 .preencheDescricaoDaAula("Aula teste para mostrar como funciona um login automatizado no site do Eveclass.")
                 .selecionaAutorDaAula("João Avelino")
