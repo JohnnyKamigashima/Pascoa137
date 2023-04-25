@@ -1,5 +1,7 @@
 package apiTest;
 
+import apiTest.pojo.Usuario;
+import com.google.gson.Gson;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.AfterEach;
@@ -74,7 +76,10 @@ import static org.hamcrest.Matchers.is;
             //Configura
             String jsonBody = lerArquivoJson("src/test/resources/json/useringrid1.json");
 
-            String username = "ingridSF2b";
+            // Aqui vou carregar somente o nome do usuario do arquivo json para não escrever de forma fixa no teste
+            // dessa forma só será necessário alterar o arquivo json para alterar o nome do usuario
+            Gson gson = new Gson();
+            Usuario username = gson.fromJson(jsonBody, Usuario.class);
 
             //Pega o userId e o token para usar no teste de deletar a conta
             //Executa
@@ -90,7 +95,7 @@ import static org.hamcrest.Matchers.is;
             .then()                                         // Então
                     .log().all()                            // mostre tudo na volta
                     .statusCode(201)                      // comunic. ida e volta ok
-                    .body("username", is(username))
+                    .body("username", is(username.getUserName()))
                     .extract() //Extraindo o response
             ;
 
