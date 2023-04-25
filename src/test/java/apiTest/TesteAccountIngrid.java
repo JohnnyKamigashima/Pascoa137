@@ -33,15 +33,7 @@ import static org.hamcrest.Matchers.is;
         @AfterEach
         void tearDown() {
             //Deleta a conta criada
-            given()
-                    .log().all()
-                    .contentType(ContentType.JSON)
-                    .header("Authorization", "Bearer " + token)
-                    .when()
-                    .delete("https://bookstore.toolsqa.com/Account/v1/User/" + userId)
-                    .then()
-                    .log().all()
-                    .statusCode(204);
+           deletaContaCriada();
         }
 //        @Test
 //        @Disabled
@@ -102,6 +94,7 @@ import static org.hamcrest.Matchers.is;
             //Pega o userId e o token para usar no teste de deletar a conta
             userId = response.jsonPath().getString("userID");
             token = getToken(jsonBody);
+            deletaContaCriada();
 
         } // fim do post
 
@@ -125,6 +118,18 @@ import static org.hamcrest.Matchers.is;
                     .extract()
                     .jsonPath()
                     .getString("token");
+        }
+
+        public void deletaContaCriada(){
+            given()
+                    .log().all()
+                    .contentType(ContentType.JSON)
+                    .header("Authorization", "Bearer " + token)
+                    .when()
+                    .delete("https://bookstore.toolsqa.com/Account/v1/User/" + userId)
+                    .then()
+                    .log().all()
+                    .statusCode(204);
         }
 
     }// fim da classe
