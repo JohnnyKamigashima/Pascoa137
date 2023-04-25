@@ -14,7 +14,7 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
       - name: Build with Maven
-        run: mvn test --batch-mode --fail-at-end surefire-report:report
+        run: mvn test --batch-mode --fail-at-end
       - name: JUnit Report Action
         uses: mikepenz/action-junit-report@v3.7.6
         if: success() || failure() # always run even if the previous step fails
