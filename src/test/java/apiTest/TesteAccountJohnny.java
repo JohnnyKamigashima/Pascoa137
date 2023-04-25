@@ -53,7 +53,7 @@ class TesteAccountJohnny {
     @Test
     @DisplayName("Teste de criação de uma conta")
     @Order(1) //Executa em primeiro
-    void testeCriarUmaConta() throws IOException {
+    public void testeCriarUmaConta() throws IOException {
         //Le arquivo com informação de um usuário
         String jsonBody = leArquivoJson("src/test/resources/json/usuarioBookStore.json");
         Gson gson = new Gson();
@@ -85,7 +85,7 @@ class TesteAccountJohnny {
             "PigPen1,11peaN*ts"
             }, delimiter = ',') //Separa os valores por virgula
     @DisplayName("Teste de criação Parametrizada de contas")
-    void TesteDeCriacaoParametrizadaDeContas(String username, String password) throws IOException {
+    public void TesteDeCriacaoParametrizadaDeContas(String username, String password) throws IOException {
         // Cria um usuário
         Usuario usuario = new Usuario();
 
@@ -119,7 +119,7 @@ class TesteAccountJohnny {
     @CsvFileSource(resources = "/csv/massaBookstoreUsers.csv", delimiter = ',', numLinesToSkip = 1) //Lê o arquivo csv
     @Order(3) //Executa em terceiro
     @DisplayName("Teste de criação Parametrizada de contas usando CSV")
-    void TesteDeCriacaoParametrizadaDeContasCSV(String username, String password) throws IOException {
+    public void TesteDeCriacaoParametrizadaDeContasCSV(String username, String password) throws IOException {
         // Cria um usuário
         Usuario usuario = new Usuario();
 
