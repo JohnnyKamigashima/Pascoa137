@@ -5,7 +5,6 @@ import com.google.gson.Gson;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -103,9 +102,6 @@ import static org.hamcrest.Matchers.is;
             //Pega o userId e o token para usar no teste de deletar a conta
             userId = response.jsonPath().getString("userID");
             token = getToken(jsonBody);
-            System.out.println("userId: " + userId);
-            System.out.println("token: " + token);
-
 
         } // fim do post
 
