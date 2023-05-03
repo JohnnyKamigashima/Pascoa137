@@ -45,7 +45,7 @@ public class CriarTestesTeste {
 
             //Faz Login
             String usuarioLogado = new LoginPage(navegador)
-                    .visitaPágina(testandoEveclassUrl)
+                    .visitaPagina(testandoEveclassUrl)
                     .preencheEmail(usuario)
                     .preencheSenha(password)
                     .clicarEntrar()

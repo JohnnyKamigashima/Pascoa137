@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class PainelAdminPage {
+
     private WebDriver navegador;
     public PainelAdminPage(WebDriver navegador) {
         this.navegador = navegador;

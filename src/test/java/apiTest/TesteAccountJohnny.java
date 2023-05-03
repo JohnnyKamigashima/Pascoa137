@@ -149,6 +149,7 @@ class TesteAccountJohnny {
         token = getToken(jsonBodyParametrizado);
     }
 
+
     //Função para pegar o token
     public String getToken(String jsonBody){
         return given()
