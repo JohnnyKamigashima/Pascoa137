@@ -1,15 +1,13 @@
 package TestandoEveclass;
 
+import TestandoEveclass.pages.AdicionarAulasPage;
 import TestandoEveclass.pages.LoginPage;
 import TestandoEveclass.pages.PainelAdminPage;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -17,12 +15,14 @@ import java.util.List;
 
 public class UploadDeAulaTest {
     WebDriver navegador;
+    LoginPage loginPage;
+    PainelAdminPage painelAdminPage;
+    AdicionarAulasPage adicionarAulasPage;
 
     //Configura
     String usuario = "febib47506@loongwin.com";
     String password="joaoavelino137";
     String chromeDriverPath = "/opt/homebrew/bin/chromedriver";//Configura caminho do chromedriver
-    String geckoDriverPath = "/opt/homebrew/bin/geckodriver";//Configura caminho do geckodriver
     String testandoEveclassUrl = "https://testando.eveclass.com/pt/auth/entrar"; //Configura URL do site
 
     @BeforeEach
@@ -35,23 +35,21 @@ public class UploadDeAulaTest {
 
         //Instancia o navegador
         navegador = new ChromeDriver(options);
-        // Configura o GeckoDriver
-        System.setProperty("webdriver.gecko.driver", geckoDriverPath);
 
-        // Instancia o Firefox
-         navegador = new FirefoxDriver();
-        // Instancia o navegador Chrome
 
         //Maximiza a janela do navegador
         navegador.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         navegador.manage().window().maximize();
 
-        String usuarioLogado = new LoginPage(navegador)
-                .visitaPagina(testandoEveclassUrl)
-                .preencheEmail(usuario)
-                .preencheSenha(password)
-                .clicarEntrar()
-                .validaLoginAdmin();
+        loginPage = new LoginPage(navegador);
+        painelAdminPage = new PainelAdminPage(navegador);
+        adicionarAulasPage = new AdicionarAulasPage(navegador);
+
+        loginPage.visitaPagina(testandoEveclassUrl);
+        loginPage.preencheEmail(usuario);
+        loginPage.preencheSenha(password);
+        loginPage.clicarEntrar();
+        String usuarioLogado = painelAdminPage.validaLoginAdmin();
         assert usuarioLogado.equals("Admin");
     }
 
@@ -71,16 +69,15 @@ public class UploadDeAulaTest {
         tags.add("automatizado");
         tags.add("selenium");
 
-        new PainelAdminPage(navegador)
-                .clicarBotaoAulas()
-                .clicarNovaAula()
-                .clicarEnviarArquivo("/src/test/resources/Aula1Login.mp4")
-                .preencheTituloDaAula("Aula sobre Login no Eveclass")
-                .preencheDescricaoDaAula("Aula teste para mostrar como funciona um login automatizado no site do Eveclass.")
-                .selecionaAutorDaAula("João Avelino")
-                .adicionaTags(tags)
-                .clicaEmConcluir()
-                .clicaEmSalvar();
+        painelAdminPage.clicarBotaoAulas();
+        adicionarAulasPage.clicarNovaAula();
+        adicionarAulasPage.clicarEnviarArquivo("/src/test/resources/Aula1Login.mp4");
+        adicionarAulasPage.preencheTituloDaAula("Aula sobre Login no Eveclass");
+        adicionarAulasPage.preencheDescricaoDaAula("Aula teste para mostrar como funciona um login automatizado no site do Eveclass.");
+        adicionarAulasPage.selecionaAutorDaAula("João Avelino");
+        adicionarAulasPage.adicionaTags(tags);
+        adicionarAulasPage.clicaEmConcluir();
+        adicionarAulasPage.clicaEmSalvar();
         assert navegador.findElement(By.xpath("//h1[normalize-space()='Aula sobre Login no Eveclass']")).isDisplayed();
     }
 }

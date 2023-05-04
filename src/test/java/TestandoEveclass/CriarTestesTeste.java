@@ -21,6 +21,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class CriarTestesTeste {
         WebDriver navegador;
+        LoginPage loginPage;
+        PainelAdminPage painelAdminPage;
+        CriarTestesPage criarTestesPage;
 
         @BeforeEach
         void setUp() throws InterruptedException { // Faz login basico com o persona do Professor Joao Avelino
@@ -43,16 +46,19 @@ public class CriarTestesTeste {
             navegador.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
             navegador.manage().window().maximize();
 
+            loginPage = new LoginPage(navegador);
+            painelAdminPage = new PainelAdminPage(navegador);
+            criarTestesPage = new CriarTestesPage(navegador);
+
             //Faz Login
-            String usuarioLogado = new LoginPage(navegador)
-                    .visitaPagina(testandoEveclassUrl)
-                    .preencheEmail(usuario)
-                    .preencheSenha(password)
-                    .clicarEntrar()
-                    .validaLoginAdmin();
+            loginPage.visitaPagina(testandoEveclassUrl);
+            loginPage.preencheEmail(usuario);
+            loginPage.preencheSenha(password);
+            loginPage.clicarEntrar();
+            String usuarioLogado = painelAdminPage.validaLoginAdmin();
             assert usuarioLogado.equals("Admin");
 
-            String iniciaisUsuario = new PainelAdminPage(navegador).obtemIniciaisUsuarioLogado();
+            String iniciaisUsuario = painelAdminPage.obtemIniciaisUsuarioLogado();
             assert iniciaisUsuario.equals("JA");
 
         }
@@ -71,89 +77,82 @@ public class CriarTestesTeste {
             tags.add(tag1);
             tags.add(tag2);
             tags.add(tag3);
-            WebElement questao;
 
             // Adiciona questão de escolha unica
-            questao = new PainelAdminPage(navegador)
-                    .clicarBotaoTestes()
-                    .ClicaNovoTeste()
-                    .ClicarSelecionar()
-                    .ClicarProsseguir()
-                    .PreencherTitulo(titulo)
-                    .PreencherTempoDaProva(tempo)
-                    .PreencheEnunciado(enunciadoProva)
-                    .AdicionarTagsProva(tags)
-                    .ClicarEmAdicionar()
-                    .ClicarEmSelecionarSimplesEscolha()
-                    .ClicarEmProsseguir()
-                    .AdicionarTituloSimplesEscolha(titQuestao1)
-                    .AdicionarTagsSimplesEscolha(tags)
-                    .AdicionarEnunciadoSimplesEscolha(enunciadoQuestao)
-                    .AdicionarAlternativa1(alternativa1)
-                    .AdicionarAlternativa2(alternativa2)
-                    .AdicionarAlternativa3(alternativa3)
-                    .SelecionarAlternativaSimplesEscolha3()
-                    .ClicarEmSalvar()
-                    .obterItemComTitulo(titQuestao1);
+            painelAdminPage.clicarBotaoTestes();
+            criarTestesPage.ClicaNovoTeste();
+            criarTestesPage.ClicarSelecionar();
+            criarTestesPage.ClicarProsseguir();
+            criarTestesPage.PreencherTitulo(titulo);
+            criarTestesPage.PreencherTempoDaProva(tempo);
+            criarTestesPage.PreencheEnunciado(enunciadoProva);
+            criarTestesPage.AdicionarTagsProva(tags);
+            criarTestesPage.ClicarEmAdicionar();
+            criarTestesPage.ClicarEmSelecionarSimplesEscolha();
+            criarTestesPage.ClicarEmProsseguir();
+            criarTestesPage.AdicionarTituloSimplesEscolha(titQuestao1);
+            criarTestesPage.AdicionarTagsSimplesEscolha(tags);
+            criarTestesPage.AdicionarEnunciadoSimplesEscolha(enunciadoQuestao);
+            criarTestesPage.AdicionarAlternativa1(alternativa1);
+            criarTestesPage.AdicionarAlternativa2(alternativa2);
+            criarTestesPage.AdicionarAlternativa3(alternativa3);
+            criarTestesPage.SelecionarAlternativaSimplesEscolha3();
+            criarTestesPage.ClicarEmSalvar();
+            WebElement questao = criarTestesPage.obterItemComTitulo(titQuestao1);
 
             assertTrue(questao.isDisplayed());
 
             //Adiciona questão de escolha multipla
-            questao = new CriarTestesPage(navegador)
-                    .ClicarEmAdicionar()
-                    .ClicarEmSelecionarMultiplaEscolha()
-                    .ClicarEmProsseguir()
-                    .AdicionarTituloSimplesEscolha(titQuestao2)
-                    .AdicionarTagsSimplesEscolha(tags)
-                    .AdicionarEnunciadoSimplesEscolha(enunciadoQuestao)
-                    .AdicionarAlternativa1(alternativa1)
-                    .AdicionarAlternativa2(alternativa2)
-                    .AdicionarAlternativa3(alternativa3)
-                    .SelecionarAlternativaMultiplaEscolha1()
-                    .SelecionarAlternativaMultiplaEscolha3()
-                    .ClicarEmSalvar()
-                    .obterItemComTitulo(titQuestao2);
+            criarTestesPage.ClicarEmAdicionar();
+            criarTestesPage.ClicarEmSelecionarMultiplaEscolha();
+            criarTestesPage.ClicarEmProsseguir();
+            criarTestesPage.AdicionarTituloSimplesEscolha(titQuestao2);
+            criarTestesPage.AdicionarTagsSimplesEscolha(tags);
+            criarTestesPage.AdicionarEnunciadoSimplesEscolha(enunciadoQuestao);
+            criarTestesPage.AdicionarAlternativa1(alternativa1);
+            criarTestesPage.AdicionarAlternativa2(alternativa2);
+            criarTestesPage.AdicionarAlternativa3(alternativa3);
+            criarTestesPage.SelecionarAlternativaMultiplaEscolha1();
+            criarTestesPage.SelecionarAlternativaMultiplaEscolha3();
+            criarTestesPage.ClicarEmSalvar();
+            questao = criarTestesPage.obterItemComTitulo(titQuestao2);
             assertTrue(questao.isDisplayed());
 
             //Adiciona questão de completar
-            questao = new CriarTestesPage(navegador)
-                    .ClicarEmAdicionar()
-                    .ClicarEmSelecionarCompletar()
-                    .ClicarEmProsseguir()
-                    .AdicionarTituloSimplesEscolha(titQuestao3)
-                    .AdicionarTagsSimplesEscolha(tags)
-                    .AdicionarEnunciadoSimplesEscolha(enunciadoQuestao)
-                    .AdicionarTextoParaPreenchimento( textoParaPreenchimento)
-                    .AdicionarFeedbackPreenchimento(textoParaPreenchimento)
-                    .ClicarEmSalvar()
-                    .obterItemComTitulo(titQuestao3);
+            criarTestesPage.ClicarEmAdicionar();
+            criarTestesPage.ClicarEmSelecionarCompletar();
+            criarTestesPage.ClicarEmProsseguir();
+            criarTestesPage.AdicionarTituloSimplesEscolha(titQuestao3);
+            criarTestesPage.AdicionarTagsSimplesEscolha(tags);
+            criarTestesPage.AdicionarEnunciadoSimplesEscolha(enunciadoQuestao);
+            criarTestesPage.AdicionarTextoParaPreenchimento( textoParaPreenchimento);
+            criarTestesPage.AdicionarFeedbackPreenchimento(textoParaPreenchimento);
+            criarTestesPage.ClicarEmSalvar();
+            questao=criarTestesPage.obterItemComTitulo(titQuestao3);
             assertTrue(questao.isDisplayed());
 
-        //Adiciona questão dissertativa
-        questao = new CriarTestesPage(navegador)
-                .ClicarEmAdicionar()
-                .ClicarEmSelecionarDissertativa()
-                .ClicarEmProsseguir()
-                .AdicionarTituloSimplesEscolha(titQuestao4)
-                .AdicionarTagsSimplesEscolha(tags)
-                .AdicionarEnunciadoSimplesEscolha(enunciadoQuestao)
-                .AdicionarFeedbackDissertativa(textoParaPreenchimento)
-                .ClicarEmSalvar()
-                .obterItemComTitulo(titQuestao4);
-        assertTrue(questao.isDisplayed());
+            //Adiciona questão dissertativa
+            criarTestesPage.ClicarEmAdicionar();
+            criarTestesPage.ClicarEmSelecionarDissertativa();
+            criarTestesPage.ClicarEmProsseguir();
+            criarTestesPage.AdicionarTituloSimplesEscolha(titQuestao4);
+            criarTestesPage.AdicionarTagsSimplesEscolha(tags);
+            criarTestesPage.AdicionarEnunciadoSimplesEscolha(enunciadoQuestao);
+            criarTestesPage.AdicionarFeedbackDissertativa(textoParaPreenchimento);
+            criarTestesPage.ClicarEmSalvar();
+            questao = criarTestesPage.obterItemComTitulo(titQuestao4);
+            assertTrue(questao.isDisplayed());
 
-        //Salva o teste
-        WebElement teste = new CriarTestesPage(navegador)
-                .ClicarEmSalvarTeste()
-                .obterItemComTitulo(titulo);
-        assertTrue(teste.isDisplayed());
-        teste.click();
+            //Salva o teste
+            criarTestesPage.ClicarEmSalvarTeste();
+            WebElement teste = criarTestesPage.obterItemComTitulo(titulo);
+            assertTrue(teste.isDisplayed());
+            teste.click();
 
-        WebElement testeRemovido = new CriarTestesPage(navegador)
-                .ClicarEmRemover()
-                .ClicarEmConfirmarRemover()
-                .obterItemComTitulo(titulo);
-        assertTrue(testeRemovido.isDisplayed());
+            criarTestesPage.ClicarEmRemover();
+            criarTestesPage.ClicarEmConfirmarRemover();
+            WebElement testeRemovido = criarTestesPage.obterItemComTitulo(titulo);
+            assertTrue(testeRemovido.isDisplayed());
         }
 
     }

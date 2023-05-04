@@ -24,6 +24,7 @@ public class ComprarPassagemPt {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
+        options.addArguments("--headless");
 
 
         driver = new ChromeDriver(options);
