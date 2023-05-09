@@ -1,14 +1,13 @@
-package TestandoEveclass.pages;
+package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
-public class PainelAdminPage {
+public class PainelAdminPage extends Base {
 
     private WebDriver navegador;
     public PainelAdminPage(WebDriver navegador) {
-        this.navegador = navegador;
+        super(navegador);
     }
 
     public AdicionarAulasPage clicarBotaoAulas() {

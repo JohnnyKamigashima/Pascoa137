@@ -1,8 +1,8 @@
 package steps;
 
-import TestandoEveclass.pages.AdicionarAulasPage;
-import TestandoEveclass.pages.LoginPage;
-import TestandoEveclass.pages.PainelAdminPage;
+import pages.AdicionarAulasPage;
+import pages.LoginPage;
+import pages.PainelAdminPage;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.es.Dado;

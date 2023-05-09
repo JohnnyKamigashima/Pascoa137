@@ -1,15 +1,13 @@
-package TestandoEveclass.pages;
+package pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class LoginPage {
-    public WebDriver navegador;
+public class LoginPage extends Base {
 
     public LoginPage(WebDriver navegador) {
-        this.navegador = navegador;
+        super(navegador);
     }
 
   public LoginPage visitaPagina(String url) {

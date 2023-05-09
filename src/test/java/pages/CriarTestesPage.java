@@ -1,4 +1,4 @@
-package TestandoEveclass.pages;
+package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -7,10 +7,9 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class CriarTestesPage {
-    WebDriver navegador;
+public class CriarTestesPage extends Base {
     public CriarTestesPage(WebDriver navegador) {
-        this.navegador = navegador;
+        super(navegador);
     }
 
     public CriarTestesPage  ClicaNovoTeste(){

@@ -1,9 +1,9 @@
 package steps;
 
-import TestandoEveclass.pages.AdicionarAulasPage;
-import TestandoEveclass.pages.CriarTestesPage;
-import TestandoEveclass.pages.LoginPage;
-import TestandoEveclass.pages.PainelAdminPage;
+import pages.AdicionarAulasPage;
+import pages.CriarTestesPage;
+import pages.LoginPage;
+import pages.PainelAdminPage;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.es.Dado;
@@ -41,7 +41,7 @@ public class CriarTestesTesteCucumber {
         System.setProperty("webdriver.chrome.driver", chromeDriverPath);
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
-        options.addArguments("--headless");
+//        options.addArguments("--headless");
 
         //Instancia o navegador
         navegador = new ChromeDriver(options);
