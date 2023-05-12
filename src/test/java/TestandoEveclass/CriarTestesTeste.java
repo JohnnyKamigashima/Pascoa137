@@ -48,7 +48,7 @@ public class CriarTestesTeste {
 
         loginPage = new LoginPage(navegador);
         painelAdminPage = new PainelAdminPage(navegador);
-//        criarTestesPage = new CriarTestesPage(navegador);
+        criarTestesPage = new CriarTestesPage(navegador);
 
         //Faz Login
         String usuarioLogado = loginPage.visitaPagina(testandoEveclassUrl)

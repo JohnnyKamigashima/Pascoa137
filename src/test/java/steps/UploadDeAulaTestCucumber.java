@@ -100,8 +100,8 @@ public class UploadDeAulaTestCucumber {
     }
 
     @Entao("a mensagem {string} deve ser exibida")
-    public void a_mensagem_deve_ser_exibida(String string) {
-        assert navegador.findElement(By.xpath("//h1[normalize-space()='Aula sobre Login no Eveclass']")).isDisplayed();
+    public void a_mensagem_deve_ser_exibida(String nomeDaAula) {
+        assert navegador.findElement(By.xpath("//h1[normalize-space()='" + nomeDaAula + "']")).isDisplayed();
     }
 
 }

@@ -42,6 +42,7 @@ public class LoginPage extends Base {
                 System.out.println("Erro encontrar botão entrar");
             }
             mensagem = navegador.findElement(By.cssSelector("#swal2-title.swal2-title")).getText();
+            System.out.println(mensagem);
         }
         ;
         return new PainelAdminPage(navegador);
