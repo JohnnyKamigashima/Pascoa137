@@ -31,7 +31,7 @@ public class UploadDeAulaTestCucumber {
         System.setProperty("webdriver.chrome.driver", chromeDriverPath);
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
-//        options.addArguments("--headless");
+        options.addArguments("--headless");
 
         //Instancia o navegador
         navegador = new ChromeDriver(options);

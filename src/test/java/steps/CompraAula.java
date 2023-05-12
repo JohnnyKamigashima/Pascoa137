@@ -29,7 +29,7 @@ public class CompraAula {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
-//        options.addArguments("--headless");
+        options.addArguments("--headless");
         navegador = new ChromeDriver(options);
         navegador.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         navegador.manage().window().maximize();
