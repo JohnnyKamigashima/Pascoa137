@@ -5,7 +5,6 @@ import org.openqa.selenium.WebDriver;
 
 public class PainelAdminPage extends Base {
 
-    private WebDriver navegador;
     public PainelAdminPage(WebDriver navegador) {
         super(navegador);
     }

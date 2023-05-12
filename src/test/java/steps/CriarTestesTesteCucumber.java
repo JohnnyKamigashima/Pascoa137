@@ -27,15 +27,17 @@ public class CriarTestesTesteCucumber {
     String password = "joaoavelino137";
     String chromeDriverPath = "/opt/homebrew/bin/chromedriver";//Configura caminho do chromedriver
     String testandoEveclassUrl = "https://testando.eveclass.com/pt/auth/entrar"; //Configura URL do site
-    LoginPage loginPage = new LoginPage(navegador);
+    LoginPage loginPage;
+    //    = new LoginPage(navegador);
     PainelAdminPage painelAdminPage;
+    //    = new PainelAdminPage(navegador);
     CriarTestesPage criarTestesPage;
-    AdicionarAulasPage adicionarAulasPage;
+//    =    new CriarTestesPage(navegador);
+    ;
     String tituloRemovido;
 
     @Before
     public void setUp() throws InterruptedException { // Faz login basico com o persona do Professor Joao Avelino
-
 
         //Configura o Chrome Driver
         System.setProperty("webdriver.chrome.driver", chromeDriverPath);
@@ -46,6 +48,7 @@ public class CriarTestesTesteCucumber {
         //Instancia o navegador
         navegador = new ChromeDriver(options);
 
+
         //Maximiza a janela do navegador
         navegador.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         navegador.manage().window().maximize();
@@ -53,6 +56,8 @@ public class CriarTestesTesteCucumber {
         loginPage = new LoginPage(navegador);
         painelAdminPage = new PainelAdminPage(navegador);
         criarTestesPage = new CriarTestesPage(navegador);
+
+
 
         //Faz Login
         loginPage.visitaPagina(testandoEveclassUrl)
@@ -74,7 +79,9 @@ public class CriarTestesTesteCucumber {
 
     @Dado("que estou logado como professor")
     public void que_estou_logado_como_professor() throws InterruptedException {
-        String usuario = painelAdminPage.validaLoginAdmin();
+
+        String usuario = painelAdminPage
+                .validaLoginAdmin();
         assert usuario.equals("Admin");
     }
 
@@ -88,7 +95,8 @@ public class CriarTestesTesteCucumber {
         tituloRemovido = titulo;
 
         // Adiciona questão de escolha unica
-        painelAdminPage.clicarBotaoTestes()
+        painelAdminPage
+                .clicarBotaoTestes()
                 .ClicaNovoTeste()
                 .ClicarSelecionar()
                 .ClicarProsseguir()
@@ -105,7 +113,8 @@ public class CriarTestesTesteCucumber {
         tags.add(tag2);
         tags.add(tag3);
 
-        WebElement questao = criarTestesPage.ClicarEmAdicionar()
+        WebElement questao = criarTestesPage
+                .ClicarEmAdicionar()
                 .ClicarEmSelecionarSimplesEscolha()
                 .ClicarEmProsseguir()
                 .AdicionarTituloSimplesEscolha(titQuestao1)
@@ -129,7 +138,8 @@ public class CriarTestesTesteCucumber {
         tags.add(tag3);
 
         //Adiciona questão de escolha multipla
-        WebElement questao = criarTestesPage.ClicarEmAdicionar()
+        WebElement questao = criarTestesPage
+                .ClicarEmAdicionar()
                 .ClicarEmSelecionarMultiplaEscolha()
                 .ClicarEmProsseguir()
                 .AdicionarTituloSimplesEscolha(titQuestao2)
@@ -153,7 +163,8 @@ public class CriarTestesTesteCucumber {
         tags.add(tag3);
 
         //Adiciona questão de completar
-        WebElement questao = criarTestesPage.ClicarEmAdicionar()
+        WebElement questao = criarTestesPage
+                .ClicarEmAdicionar()
                 .ClicarEmSelecionarCompletar()
                 .ClicarEmProsseguir()
                 .AdicionarTituloSimplesEscolha(titQuestao3)
@@ -174,7 +185,8 @@ public class CriarTestesTesteCucumber {
         tags.add(tag3);
 
         //Adiciona questão dissertativa
-        WebElement questao = criarTestesPage.ClicarEmAdicionar()
+        WebElement questao = criarTestesPage
+                .ClicarEmAdicionar()
                 .ClicarEmSelecionarDissertativa()
                 .ClicarEmProsseguir()
                 .AdicionarTituloSimplesEscolha(titQuestao4)
@@ -194,7 +206,8 @@ public class CriarTestesTesteCucumber {
 
     @Entao("vejo que o {string} é mostrado na lista de testes")
     public void vejo_que_o_é_mostrado_na_lista_de_testes(String titulo) {
-        WebElement teste = criarTestesPage.obterItemComTitulo(titulo);
+        WebElement teste = criarTestesPage
+                .obterItemComTitulo(titulo);
         assertTrue(teste.isDisplayed());
         teste.click();
     }

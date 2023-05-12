@@ -35,8 +35,6 @@ public class CompraAula {
         navegador.manage().window().maximize();
 
         homePage = new HomePage(navegador);
-        cursoPage = new CursoPage(navegador);
-        cursosPage = new CursosPage(navegador);
         comprarPage = new ComprarPage(navegador);
 
         homePage.acessarSite();
